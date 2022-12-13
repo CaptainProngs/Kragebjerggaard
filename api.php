@@ -22,20 +22,20 @@ $data = json_decode(file_get_contents('php://input'), true);
 header('Content-Type: application/json; charset=utf-8');
 
 if(isset($data["password"]) && $data["password"] == "KickPHP") {
-    $sql = "SELECT * FROM musik WHERE 1=1";
+    $sql = "SELECT * FROM mejeri.frugt.krydderier.saft WHERE 1=1";
     $bind = [];
 
     if(!empty($data["nameSearch"])) {
-        $sql .= " AND (musikTitel LIKE CONCAT('%' :nameSearch '%') OR musikAlbum LIKE CONCAT('%' :nameSearch '%') OR musikKunstner LIKE CONCAT('%' :nameSearch '%'))";
+        $sql .= " AND (musikNavn LIKE CONCAT('%' :nameSearch '%'))";
         $bind [":nameSearch"] = $data["nameSearch"];
     }
 
-    $sql .= " ORDER BY musikTitel ASC";
+    $sql .= " ORDER BY mejeriNavn.saftNavn.krydderierNavn.frugtNavn ASC";
 
-    $musik = $db->sql($sql, $bind);
+    $mejeri.$frugt.$krydderier.$saft = $db->sql($sql, $bind);
     header("HTTP/1.1 200 OK");
 
-    echo json_encode($musik);
+    echo json_encode($mejeri.$frugt.$krydderier.$saft);
 
 } else {
     header("HTTP/1.1 401 Unauthorized");
