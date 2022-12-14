@@ -40,7 +40,7 @@
         <div class="order-lg-last d-flex">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="icon"><img style="max-height: 40px" src="images/burgerMenu.png" alt="cart"></span>
             </button>
         </div>
 
