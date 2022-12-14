@@ -32,13 +32,8 @@ img {
 	height: auto;
 }
 
-.nav-link .active{
-	font-family: "Sans Mateo 2 Semi";
-}
-
-.navbar-toggler{
-	border: none;
-	color: #f5f7f6;
+.footer .nav-link .active {
+	color: #dde0e3;
 }
 
 .nav-link {
@@ -50,7 +45,7 @@ img {
 	color: #0c63e4;
 }
 
-.navbar-nav .nav-link.active {
+.navbar-nav .nav-link .active {
 	color: #f5f7f6;
 }
 
