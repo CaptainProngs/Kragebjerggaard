@@ -81,9 +81,12 @@
             <div class="col col-lg-4">
                 <a class="nav-link px-4"
                    href="https://www.google.com/maps/place/Kragebjergg%C3%A5rd/@55.5481506,11.6582068,17z/data=!3m1!4b1!4m5!3m4!1s0x46528422abd36d6d:0x6559ba81305fb08b!8m2!3d55.5481426!4d11.6603878">
-                    <img style="max-height: 40px" src="images/map.png" alt="cart"></a>
-                <a class="nav-link" href="#"><img src="images/Facebook.png" alt="Facebook"></a>
-                <a class="nav-link" href="#"><img src="images/Instagram.png" alt="instgram"></a>
+                    <img style="max-height: 120px" src="images/map.png" alt="cart"></a>
+                <div class="row">
+                <a class="nav-link col-4" href="#"><img src="images/Facebook.png" alt="Facebook"></a>
+                <a class="nav-link col-4" href="#"><img src="images/Instagram.png" alt="instgram"></a>
+                </div>
+            </div>
             </div>
         </div>
 
