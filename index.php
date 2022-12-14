@@ -61,7 +61,7 @@
 
 <footer class="footer container-fluid bg-navfarve justify-content-center" style="min-height: 200px">
 
-    <div class="row d-flex justify-content-around">
+    <div class="row pt-5 d-flex justify-content-around">
         <div class="col col-lg-3">
             <a class="nav-link active" style="font-size: x-large" href="">Info</a>
             <a class="link row p-2" style="font-size: large" href="#">Gården</a>
