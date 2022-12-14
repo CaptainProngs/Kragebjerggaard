@@ -32,9 +32,7 @@ img {
 	height: auto;
 }
 
-.footer .nav-link .active {
-	color: #dde0e3;
-}
+
 
 .nav-link {
 	color: #157875;
@@ -49,4 +47,9 @@ img {
 	color: #f5f7f6;
 }
 
-
+.footer .link {
+	color: #dde0e3;
+	font-family: "arial";
+	text-underline: none;
+	text-decoration-line: none;
+}
