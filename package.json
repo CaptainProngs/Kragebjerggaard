@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node_modules/.bin/sass --watch --update --style=compressed css:css"
+    "sass": "sass --watch --update --style=compressed css:css"
   },
   "author": "",
   "license": "ISC",

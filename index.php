@@ -26,12 +26,31 @@
 
 <body>
 
+<nav class="navbar navbar-expand-lg navbar-light shadow bg-navfarve">
+    <div class="container-fluid">
+        <a class="navbar-brand ms-2" href="index.php"><img style="max-height: 80px" src="images/logo.png" alt=""></a>
+
+        <div class="order-lg-last d-flex">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="container-fluid d-flex justify-content-end">
+                <a class="nav-link active p-2 px-5" style="font-size: x-large" href="">Webshop</a>
+                <a class="nav-link p-2 px-5" style="font-size: x-large" href="">Events</a>
+                <a class="nav-link p-2 px-5" style="font-size: x-large" href="">Om os</a>
+                <a class="nav-link px-4" href="kurv.php"><img style="max-height: 40px" src="images/kurv.png" alt="cart"></a>
+            </div>
+        </div>
+    </div>
+</nav>
 
 
 
 
-
-
-
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
