@@ -27,8 +27,35 @@
 <body>
 <?php include 'nav.php';?>
 
+<div class="container-fluid d-none d-mb-block d-lg-block">
+    <img src="images/heropc.webp" alt="">
+</div>
 
+<div class="container-fluid d-block d-mb-none d-lg-none">
+    <img src="images/heromobil.webp" alt="">
+</div>
 
+<div class="container col-11">
+    <div class="row justify-content-end">
+        <img src="images/click&collectskilt.png" class="d-none d-dm-block d-lg-block" style="width: 20rem" alt="">
+    </div>
+    <div class="row justify-content-end">
+        <img src="images/click&collectskilt.png" class="d-block d-dm-none d-lg-none" style="width: 10rem;" alt="">
+    </div>
+</div>
+
+<section class="container col-8">
+    <div class="row text-center">
+    <h1>Kragebjerggård inviterer til begivenhedsrige stunder</h1>
+    </div>
+</section>
+
+<section class="container col-8">
+    <div class="card-body">
+
+    </div>
+
+</section>
 
 
 
