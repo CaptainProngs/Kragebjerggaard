@@ -39,17 +39,17 @@ img {
 
 .card-title {
 	color: #17332E;
-	font-family: "arial";
+	font-family: "proxima nova";
 	font-weight: bold;
 }
 
 .card-text {
-	font-family: "arial";
+	font-family: "proxima nova";
 	font-weight: bolder;
 }
 
 .pris {
-	font-family: "arial";
+	font-family: "proxima nova";
 	font-weight: bolder;
 }
 
@@ -63,7 +63,7 @@ img {
 
 .footer .link {
 	color: #dde0e3;
-	font-family: "arial";
+	font-family: "proxima nova";
 	text-underline: none;
 	text-decoration-line: none;
 }
@@ -71,9 +71,16 @@ img {
 .btn {
 	color: #ffffff;
 	border-radius: 0px 25px;
+	font-family: "proxima nova";
+	font-weight: bold;
 }
 
 .card {
+	border-radius: 0px 40px;
+	border: none;
+}
+
+.card-img-top {
 	border-radius: 0px 40px;
 	border: none;
 }

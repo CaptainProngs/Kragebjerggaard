@@ -34,8 +34,8 @@
         <p class="card-text">Some quick text.</p>
 
         <div class="row mt-2">
-            <div class="col-8 pris"><p>Pris</p></div>
-            <div class="col-2 justify-content-end mb-1"><img src="images/darkCart.png" class="card-img-top" alt="cart"></div>
+            <div class="col-10 pris"><p>Pris</p></div>
+            <div class="col-2 mb-4"><img src="images/darkCart.png" class="img-cart" alt="cart"></div>
         </div>
         <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a></div>
     </div>
