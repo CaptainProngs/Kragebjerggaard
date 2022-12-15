@@ -50,11 +50,40 @@
     </div>
 </section>
 
-<section class="container col-8">
-    <div class="card-body">
-
+<section class="container col-8 mt-5 d-flex">
+    <div class="row justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">Webshop</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">Events</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">Om os</a>
+            </div>
+        </div>
     </div>
+</section>
 
+<article class="container col-8">
+    <div class="row">
+        <img class="col-4" src="images/oekoikon.webp" alt="">
+    <h3 class="col-4">På kragebjerggård går vi højt på for kvalitet, og derfor er alle vores produkter økologiske</h3>
+    </div>
+</article>
+
+<section class="container-fluid">
+    <div class="row">
+        <img src="images/bannerlandingpage.webp" alt="">
+    </div>
 </section>
 
 
