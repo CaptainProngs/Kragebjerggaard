@@ -28,14 +28,14 @@
 
 
 <div class="card bg-cardPrimary" style="width: 18rem;">
-    <img src="images/kurv.png" class="card-img-top" alt="...">
-    <div class="card-body m-2">
-        <h2 class="card-title p-0">Title</h2>
+    <img src="images/Grønt%202.2.png" class="card-img-top" alt="...">
+    <div class="card-body mx-2 mb-2">
+        <h2 class="card-title p-0 mb-0">Title</h2>
         <p class="card-text">Some quick text.</p>
-        <br>
-        <div class="row">
+
+        <div class="row mt-2">
             <div class="col-8 pris"><p>Pris</p></div>
-            <div class="col-2 justify-content-end"><img src="images/darkCart.png" class="card-img-top" alt="cart"></div>
+            <div class="col-2 justify-content-end mb-1"><img src="images/darkCart.png" class="card-img-top" alt="cart"></div>
         </div>
         <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a></div>
     </div>
