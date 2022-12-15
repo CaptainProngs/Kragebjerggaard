@@ -32,10 +32,13 @@ img {
 	height: auto;
 }
 
-
-
 .nav-link {
 	color: #157875;
+	font-family: "Sans Mateo 2";
+}
+
+.card-title {
+	color: #17332E;
 	font-family: "Sans Mateo 2";
 }
 
@@ -52,4 +55,8 @@ img {
 	font-family: "arial";
 	text-underline: none;
 	text-decoration-line: none;
+}
+
+.btn {
+	color: #ffffff;
 }
