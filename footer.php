@@ -1,5 +1,5 @@
 <?php
-echo "
+echo '
 
 
 <a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/footerGrafikS.png" alt="Map"></a>
@@ -44,5 +44,5 @@ echo "
 
 
 
-";
+';
 ?>
