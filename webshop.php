@@ -1,4 +1,6 @@
 <?php
+require "settings/init.php";
+
 $kategori = (!empty($_GET["kategori"])) ? $_GET["kategori"]  : "" ;
 
 $sql = "SELECT * FROM produkter WHERE 1=1 ";
@@ -33,8 +35,6 @@ $produkter = $db->sql($sql);
 </head>
 
 <body>
-
-
 <div class="card bg-cardPrimary" style="width: 18rem;">
     <img src="images/Grønt%202.2.png" class="card-img-top" alt="...">
     <div class="card-body mx-2 mb-2">
@@ -50,18 +50,39 @@ $produkter = $db->sql($sql);
 </div>
 
 
+<div class="container">
+    <div class="produkter">
+        <div class="row">
+            <div class="items">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 
 
 
 
 
 
-
-
-
-<a href="webshop.php?kategori=maelk">ikon</a>
+<a href="webshop.php?kategori=grønt">ikon</a>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+</script>
+
+<script type="module">
+    import Produkt from "./js/produkt.js";
+
+    const produkter = new Produkt();
+    produkter.init();
+</script>
+
+
 </body>
 </html>

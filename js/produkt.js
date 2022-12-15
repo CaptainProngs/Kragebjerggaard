@@ -1,20 +1,16 @@
-export default class produkt {
+export default class Produkt {
     constructor() {
         this.data = {
             password:"KickPHP"
         }
 
-        this.rootElem = document.querySelector('.mejeri.saft.krydderier.frugt');
-        this.filter = this.rootElem.querySelector('.filter');
+        this.rootElem = document.querySelector('.produkter');
         this.items = this.rootElem.querySelector('.items');
 
-        this.nameSearch = this.filter.querySelector('.nameSearch');
     }
 
     async init(){
-        this.nameSearch.addEventListener('input', () => {
-            this.render();
-        })
+
         await this.render();
     }
 
@@ -29,6 +25,19 @@ export default class produkt {
             col.classList.add('col-12', 'col-md-6', 'col-lg-5', 'p-2', 'm-5', 'shadow');
 
             col.innerHTML = `
+    <div class="card bg-cardPrimary" style="width: 18rem;">
+    <img src="images/${item.prodBilled}" class="card-img-top" alt="...">
+    <div class="card-body mx-2 mb-2">
+        <h2 class="card-title p-0 mb-0">${item.prodNavn}</h2>
+        <p class="card-text">${item.prodBeskrivelse}</p>
+
+        <div class="row mt-2">
+            <div class="col-10 pris"><p>${item.prodPris}</p></div>
+            <div class="col-2 mb-4"><img src="images/darkCart.png" class="img-cart" alt="cart"></div>
+        </div>
+        <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a></div>
+    </div>
+</div>
         `;
 
             row.appendChild(col);
@@ -40,7 +49,6 @@ export default class produkt {
     }
 
     async getData(){
-        this.data.nameSearch = this.nameSearch.value;
         const response = await fetch('api.php', {
             method: "POST",
             body: JSON.stringify(this.data)

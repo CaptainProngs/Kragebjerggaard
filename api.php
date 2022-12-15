@@ -25,10 +25,6 @@ if(isset($data["password"]) && $data["password"] == "KickPHP") {
     $sql = "SELECT * FROM produkter WHERE 1=1";
     $bind = [];
 
-    if(!empty($data["nameSearch"])) {
-        $sql .= " AND (prodKategori LIKE CONCAT('%' :nameSearch '%'))";
-        $bind [":nameSearch"] = $data["nameSearch"];
-    }
 
     $sql .= " ORDER BY prodKategori ASC";
 
