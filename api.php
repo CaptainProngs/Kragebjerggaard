@@ -22,7 +22,7 @@ $data = json_decode(file_get_contents('php://input'), true);
 header('Content-Type: application/json; charset=utf-8');
 
 if(isset($data["password"]) && $data["password"] == "KickPHP") {
-    $sql = "SELECT * FROM mejeri.frugt.krydderier.saft WHERE 1=1";
+    $sql = "SELECT * FROM produkter WHERE 1=1";
     $bind = [];
 
     if(!empty($data["nameSearch"])) {
@@ -30,12 +30,12 @@ if(isset($data["password"]) && $data["password"] == "KickPHP") {
         $bind [":nameSearch"] = $data["nameSearch"];
     }
 
-    $sql .= " ORDER BY mejeriNavn.saftNavn.krydderierNavn.frugtNavn ASC";
+    $sql .= " ORDER BY prodKategori ASC";
 
-    $mejeri.$frugt.$krydderier.$saft = $db->sql($sql, $bind);
+    $produkter = $db->sql($sql, $bind);
     header("HTTP/1.1 200 OK");
 
-    echo json_encode($mejeri.$frugt.$krydderier.$saft);
+    echo json_encode($produkter);
 
 } else {
     header("HTTP/1.1 401 Unauthorized");
