@@ -53,8 +53,13 @@ img {
 	font-weight: bolder;
 }
 
-.nav-link :hover{
-	color: #0c63e4;
+.nav-link:hover{
+	color: #f5f7f6;
+}
+
+.active{
+
+	color: #f5f7f6 !important;
 }
 
 .navbar-nav .nav-link .active {

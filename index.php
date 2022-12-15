@@ -63,7 +63,7 @@
 
     <div class="row pt-5 d-flex justify-content-around">
         <div class="col col-lg-3">
-            <a class="nav-link active" style="font-size: x-large" href="">Info</a>
+            <a class="nav-link" style="font-size: x-large" href="">Info</a>
             <a class="link row p-2" style="font-size: large" href="#">Gården</a>
             <a class="link row p-2" style="font-size: large" href="#">Click & collect</a>
             <a class="link row p-2" style="font-size: large" href="#">Fødevarestyrelsen</a>
@@ -71,7 +71,7 @@
             <a class="link row p-2" style="font-size: large" href="#">Bæredygtighed</a>
         </div>
         <div class="col col-lg-3">
-            <a class="nav-link active" style="font-size: x-large" href="">Åbningstider</a>
+            <a class="nav-link" style="font-size: x-large" href="">Åbningstider</a>
             <a class="link row p-2" style="font-size: large" href="#">Mandag - fredag 11.00 - 19:00</a>
             <a class="link row p-2" style="font-size: large" href="#">Søndag & helligedage 12.00 - 16.00</a>
         </div>

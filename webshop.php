@@ -1,5 +1,13 @@
 <?php
+$kategori = (!empty($_GET["kategori"])) ? $_GET["kategori"]  : "" ;
 
+$sql = "SELECT * FROM produkter WHERE 1=1 ";
+
+if(!empty($kategori)) {
+    $sql .= "AND prodKategori = $kategori";
+}
+
+$produkter = $db->sql($sql);
 ?>
 
 <!DOCTYPE html>
@@ -42,6 +50,16 @@
 </div>
 
 
+
+
+
+
+
+
+
+
+
+<a href="webshop.php?kategori=maelk">ikon</a>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -26,7 +26,7 @@ if(isset($data["password"]) && $data["password"] == "KickPHP") {
     $bind = [];
 
     if(!empty($data["nameSearch"])) {
-        $sql .= " AND (musikNavn LIKE CONCAT('%' :nameSearch '%'))";
+        $sql .= " AND (prodKategori LIKE CONCAT('%' :nameSearch '%'))";
         $bind [":nameSearch"] = $data["nameSearch"];
     }
 
