@@ -39,7 +39,18 @@ img {
 
 .card-title {
 	color: #17332E;
-	font-family: "Sans Mateo 2";
+	font-family: "arial";
+	font-weight: bold;
+}
+
+.card-text {
+	font-family: "arial";
+	font-weight: bolder;
+}
+
+.pris {
+	font-family: "arial";
+	font-weight: bolder;
 }
 
 .nav-link :hover{
@@ -59,4 +70,10 @@ img {
 
 .btn {
 	color: #ffffff;
+	border-radius: 0px 20px;
+}
+
+.card {
+	border-radius: 0px 40px;
+	border: none;
 }

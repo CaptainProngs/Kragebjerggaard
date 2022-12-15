@@ -17,6 +17,8 @@ $custom-colors: (
         "primary": #007bff,
         "navfarve": #17332E,
         "btn-primary": #6f7831,
+        "cardPrimary": #e5e6db,
+
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
