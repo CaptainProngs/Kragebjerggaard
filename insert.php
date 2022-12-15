@@ -4,7 +4,7 @@ require "settings/init.php";
 if (!empty($_POST["data"])){
     $data = $_POST["data"];
 
-    $sql = "INSERT INTO mejeri (prodNavn, prodBeskrivelse, prodPris, prodKategori) VALUES(:prodNavn, :prodBeskrivelse, :prodPris, :prodKategori)";
+    $sql = "INSERT INTO produkter (prodNavn, prodBeskrivelse, prodPris, prodKategori) VALUES(:prodNavn, :prodBeskrivelse, :prodPris, :prodKategori)";
     $bind = [":prodNavn" => $data["prodNavn"], ":prodBeskrivelse" => $data["prodBeskrivelse"], ":prodPris" => $data["prodPris"], ":prodKategori" => $data["prodKategori"]];
 
     $db->sql($sql, $bind,false);
@@ -38,28 +38,28 @@ if (!empty($_POST["data"])){
 
         <div class="col-12 col-md-6">
             <div class="form-group">
-                <label for="mejeriNavn">Mejeri navn</label>
+                <label for="prodNavn">Produkt navn</label>
                 <input class="form-control" type="text" name="data[prodNavn]" id="prodNavn" placeholder="" value="">
             </div>
         </div>
 
         <div class="col-12 col-md-6">
             <div class="form-group">
-                <label for="mejeriPris">Mejeri pris</label>
+                <label for="prodPris">Produkt pris</label>
                 <input class="form-control" type="number" step="0.01" name="data[prodPris]" id="prodPris" placeholder="" value="">
             </div>
         </div>
 
         <div class="col-12 col-md-6">
             <div class="form-group">
-                <label for="mejeriNavn">Mejeri navn</label>
+                <label for="prodKategori">Produkt kategori</label>
                 <input class="form-control" type="text" name="data[prodKategori]" id="ProdKategori" placeholder="" value="">
             </div>
         </div>
 
         <div class="col-12 col-md-6">
             <div class="form-group">
-                <label for="mejeriBeskrivelse">Mejeri beskrivelse</label>
+                <label for="prodBeskrivelse">Produkt beskrivelse</label>
                 <input class="form-control" type="text" step="0.1" name="data[prodBeskrivelse]" id="prodBeskrivelse" placeholder="" value="">
             </div>
         </div>
