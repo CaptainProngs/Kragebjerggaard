@@ -38,13 +38,15 @@ $produkter = $db->sql($sql);
 
 <?php include 'nav.php';?>
 
+<br><br><br><br>
+
 <div class="row justify-content-center">
     <a class="col-2" href="webshop.php?kategori=grønt"><img src="images/ikon1.png" alt="frugt og grønt"></a>
     <a class="col-2" href="webshop.php?kategori=saft"><img src="images/ikon2.png" alt="saft og juice"></a>
     <a class="col-2" href="webshop.php?kategori=krydderier"><img src="images/ikon3.png" alt="krydderier"></a>
     <a class="col-2" href="webshop.php?kategori=mejeri"><img src="images/ikon4.png" alt="mejeri"></a>
 </div>
-
+<br><br>
 
 <div class="container">
     <div class="produkter">
@@ -55,7 +57,7 @@ $produkter = $db->sql($sql);
     </div>
 </div>
 
-
+<br><br><br><br>
 
 <?php include 'footer.php';?>
 

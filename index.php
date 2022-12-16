@@ -13,13 +13,20 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <meta name=”description" content='En økoglogisk går, der går op i dyrevelfærd og frsike råvarer.
+          Gården har eget mejeri og driver en webshop med hjemmelavet produkter'>
+
+    <meta name=”robots" content=”index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords"
+          content="søgeord1, søgeord2, søgeord3">
+
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-
+    <link href="https://fonts.cdnfonts.com/css/sans-mateo" rel="stylesheet">
     <script src="https://cdn.tiny.cloud/1/ys9ivv1x233eg2mrq0d4prcpenkssm67kjeagomz2eix9ubu/tinymce/6/tinymce.min.js"
             referrerpolicy="origin"></script>
 </head>
