@@ -9,7 +9,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
-    font-family: "Sans Mateo 2";
+	font-family: 'Sans Mateo', sans-serif;
+
 }
 
 ul, ol {
@@ -26,6 +27,7 @@ p {
 	margin: 0;
 	padding: 0;
 	font-family: "proxima nova";
+
 }
 
 img {
@@ -36,7 +38,7 @@ img {
 
 .nav-link {
 	color: #157875;
-	font-family: "Sans Mateo 2";
+	font-family: "Sans Mateo", sans-serif;
 }
 
 .card-title {
@@ -89,4 +91,26 @@ img {
 .card-img-top {
 	border-radius: 0px 40px;
 	border: none;
+}
+
+
+.aboutus-img-cow {
+	position: relative;
+
+}
+
+.aboutus-title p {
+	font-size:10vw;
+	font-family: "Sans Mateo", sans-serif;
+	color: white;
+	position: absolute;
+	top: 35%;
+	left: 62%;
+
+}
+
+
+.aboutus-img-footer {
+	position: absolute;
+	bottom: 0;
 }
