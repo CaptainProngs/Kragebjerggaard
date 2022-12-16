@@ -59,7 +59,7 @@ if (!empty($_POST["data"])){
 
         <div class="col-12 col-md-6">
             <div class="form-group">
-                <label for="prodBeskrivelse">Produkt beskrivelse</label>
+                <label for="prodBeskrivelse"> beskrivelse</label>
                 <input class="form-control" type="text" step="0.1" name="data[prodBeskrivelse]" id="prodBeskrivelse" placeholder="" value="">
             </div>
         </div>

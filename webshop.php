@@ -50,6 +50,13 @@ $produkter = $db->sql($sql);
 </div>
 
 
+<div class="row justify-content-center">
+    <a class="col-2" href="webshop.php?kategori=grønt"><img src="images/ikon1.png" alt="frugt og grønt"></a>
+    <a class="col-2" href="webshop.php?kategori=saft"><img src="images/ikon2.png" alt="saft og juice"></a>
+    <a class="col-2" href="webshop.php?kategori=krydderier"><img src="images/ikon3.png" alt="krydderier"></a>
+    <a class="col-2" href="webshop.php?kategori=mejeri"><img src="images/ikon4.png" alt="mejeri"></a>
+</div>
+
 <div class="container">
     <div class="produkter">
         <div class="row">
@@ -60,12 +67,6 @@ $produkter = $db->sql($sql);
 </div>
 </div>
 
-
-
-
-
-
-<a href="webshop.php?kategori=grønt">ikon</a>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
