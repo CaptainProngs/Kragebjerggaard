@@ -25,9 +25,69 @@
 </head>
 
 <body>
-
-
 <?php include 'nav.php';?>
+
+<div class="container-fluid d-none d-mb-block d-lg-block">
+    <img src="images/heropc.webp" alt="">
+</div>
+
+<div class="container-fluid d-block d-mb-none d-lg-none">
+    <img src="images/heromobil.webp" alt="">
+</div>
+
+<div class="container col-11">
+    <div class="row justify-content-end">
+        <img src="images/click&collectskilt.png" class="d-none d-dm-block d-lg-block" style="width: 20rem" alt="">
+    </div>
+    <div class="row justify-content-end">
+        <img src="images/click&collectskilt.png" class="d-block d-dm-none d-lg-none" style="width: 10rem;" alt="">
+    </div>
+</div>
+
+<section class="container col-8">
+    <div class="row text-center">
+    <h1>Kragebjerggård inviterer til begivenhedsrige stunder</h1>
+    </div>
+</section>
+
+<section class="container col-8 mt-5 d-flex">
+    <div class="row justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">Webshop</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">Events</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">Om os</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<article class="container col-8">
+    <div class="row">
+        <img class="col-4" src="images/oekoikon.webp" alt="">
+    <h3 class="col-4">På kragebjerggård går vi højt på for kvalitet, og derfor er alle vores produkter økologiske</h3>
+    </div>
+</article>
+
+<section class="container-fluid">
+    <div class="row">
+        <img src="images/bannerlandingpage.webp" alt="">
+    </div>
+</section>
+
+
+
 <?php include 'footer.php';?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
