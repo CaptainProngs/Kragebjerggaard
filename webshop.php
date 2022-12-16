@@ -38,21 +38,6 @@ $produkter = $db->sql($sql);
 
 <?php include 'nav.php';?>
 
-<div class="card bg-cardPrimary" style="width: 18rem;">
-    <img src="images/Grønt%202.2.png" class="card-img-top" alt="...">
-    <div class="card-body mx-2 mb-2">
-        <h2 class="card-title p-0 mb-0">Title</h2>
-        <p class="card-text">Some quick text.</p>
-
-        <div class="row mt-2">
-            <div class="col-10 pris"><p>Pris</p></div>
-            <div class="col-2 mb-4"><img src="images/darkCart.png" class="img-cart" alt="cart"></div>
-        </div>
-        <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a></div>
-    </div>
-</div>
-
-
 <div class="row justify-content-center">
     <a class="col-2" href="webshop.php?kategori=grønt"><img src="images/ikon1.png" alt="frugt og grønt"></a>
     <a class="col-2" href="webshop.php?kategori=saft"><img src="images/ikon2.png" alt="saft og juice"></a>
