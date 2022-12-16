@@ -35,6 +35,9 @@ $produkter = $db->sql($sql);
 </head>
 
 <body>
+
+<?php include 'nav.php';?>
+
 <div class="card bg-cardPrimary" style="width: 18rem;">
     <img src="images/Grønt%202.2.png" class="card-img-top" alt="...">
     <div class="card-body mx-2 mb-2">
@@ -57,6 +60,7 @@ $produkter = $db->sql($sql);
     <a class="col-2" href="webshop.php?kategori=mejeri"><img src="images/ikon4.png" alt="mejeri"></a>
 </div>
 
+
 <div class="container">
     <div class="produkter">
         <div class="row">
@@ -65,9 +69,10 @@ $produkter = $db->sql($sql);
         </div>
     </div>
 </div>
-</div>
 
 
+
+<?php include 'footer.php';?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
