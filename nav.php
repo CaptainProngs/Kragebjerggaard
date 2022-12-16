@@ -20,11 +20,11 @@ echo '
         </div>
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav container-fluid d-flex justify-content-end">
+            <div class="navbar-nav container-fluid d-flex justify-content-end text-center">
                 <a class="nav-link active p-2 px-5" style="font-size: x-large" href="#">Webshop</a>
                 <a class="nav-link p-2 px-5" style="font-size: x-large" href="#">Events</a>
                 <a class="nav-link p-2 px-5" style="font-size: x-large" href="about.php">Om os</a>
-                <a class="nav-link px-4" href="kurv.php"><img style="max-height: 40px" src="images/kurv.png" alt="cart"></a>
+                <a class="nav-link px-4" href="kurv.php"><img class="float-end" style="max-height: 40px" src="images/kurv.png" alt="cart"></a>
             </div>
         </div>
     </div>
