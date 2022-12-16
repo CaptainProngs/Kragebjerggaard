@@ -22,10 +22,10 @@ export default class Produkt {
 
         for(const item of data){
             const col = document.createElement('div');
-            col.classList.add('col-12', 'col-md-6', 'col-lg-5', 'p-2', 'm-5');
+            col.classList.add('col-6', 'justify-content-center', 'col-md-6', 'col-lg-3', 'p-2', 'm-0');
 
             col.innerHTML = `
-        <div class="card bg-cardPrimary" style="width: 18rem;">
+        <div class="card bg-cardPrimary" style="max-width: 18rem;">
     <img src="images/${item.prodBilled}" class="card-img-top" alt="...">
     <div class="card-body mx-2 mb-2">
         <h2 class="card-title p-0 mb-0">${item.prodNavn}</h2>
