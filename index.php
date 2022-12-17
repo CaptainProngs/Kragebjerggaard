@@ -13,7 +13,7 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <meta name=”description" content='En økoglogisk går, der går op i dyrevelfærd og frsike råvarer.
+    <meta name=”description" content='En økoglogisk gård, der går op i dyrevelfærd og frsike råvarer.
           Gården har eget mejeri og driver en webshop med hjemmelavet produkter'>
 
     <meta name=”robots" content=”index, follow">
@@ -21,6 +21,15 @@
 
     <meta name="keywords"
           content="søgeord1, søgeord2, søgeord3">
+
+    <meta property="og:title" content="Økologisk landbrug" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.kragebjerggaard.dk" />
+    <meta property="og:image" content="https://www.kragebjerggaard.dk/heromobil.webp" />
+    <meta property="og:description" content="Lille økoglogisk landbrug med sans for dyrevelfærd, friske råvarer, smag og mejeri"/>
+    <meta property="og:locale" content="da_DK" />
+
+    <meta itemprop="name" content="Kragebjerggaard" />
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
