@@ -14,12 +14,10 @@ $custom-colors: (
  */
 
 $custom-colors: (
-        "primary": #007bff,
         "navfarve": #17332E,
         "btn-primary": #6f7831,
         "cardPrimary": #e5e6db,
-        "oliveGreen": #6f7830,
-
+        "oliveGreen": #8C9361,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
