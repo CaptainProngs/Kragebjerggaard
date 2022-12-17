@@ -27,7 +27,7 @@
 
 <section class="aboutus">
     <div class="aboutus-img-cow" >
-        <img src="images/cutecowaboutus.png">
+        <img class="about-cow-img" src="images/cutecowaboutus.png">
 
         <div class="text-end aboutus-title">
            <p>Om os</p>
@@ -41,7 +41,7 @@
 
 <main>
     <div class="container-fluid bg-oliveGreen mb-5">
-        <div class="container">
+        <div class="container mx-auto">
             <div class="row mx-auto about-graphic">
 
                 <div class="col-6 col-lg-3 py-5 about-card1">
@@ -71,11 +71,17 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col col-lg-12">
-            <img class="about-farmhouse-img mx-auto" src="images/farmhouse.png">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 col-lg-6">
+                <img class="about-farmhouse-img pb-4" src="images/farmhouseimage.png">
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <img class="about-aboutus-img pb-4" src="images/aboutusimage.png">
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+            </div>
         </div>
-        <div class="col col-lg-12"></div>
     </div>
 </main>
 <?php include "footer.php" ?>

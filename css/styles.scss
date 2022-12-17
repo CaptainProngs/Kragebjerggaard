@@ -119,33 +119,20 @@ img {
 
 
 .about-farmhouse-img {
-	border-radius: 0 20% 0 20%;
+	border-radius: 0 0 0 20%;
 }
 
-main {
-	position: relative;
-
+.about-aboutus-img {
+	border-radius: 0 20% 0 0;
 }
 
-.about-card1 {
-	position: absolute;
-	margin-top: -10%;
-	left: 25%;
-}
-.about-card2 {
-	position: absolute;
-	margin-top: -10%;
-	left: 50%;
-}
+@media screen and (max-width: 991px){
+	.about-farmhouse-img {
+		border-radius: 0 20% 0 20%;
+	}
 
-.about-card3 {
-	position: absolute;
-	margin-top: -10%;
-	left: 75%;
-}
+	.about-aboutus-img {
+		border-radius: 0 20% 0 20%;
+	}
 
-.about-card4 {
-	position: absolute;     
-	top: -10%;
-	left: 100%;
 }
