@@ -75,10 +75,6 @@ $produkter = $db->sql($sql);
 </div>
 
 
-<div class="container-fluid p-0">
-    <img src="images/bannerprodukt1.webp" alt="inspiration">
-    <a href="#"><img src="images/bannerprodukt2.webp" alt="inspiration"></a>
-</div>
 
 
 <?php
@@ -87,9 +83,9 @@ foreach ($produkter
 
          as $items) {
 
+?>
 
-    if ($count < 8) {
-        ?>
+
             <div class="row justify-content-center pt-3">
                 <div class="card bg-cardPrimary col-6 col-md-6 col-lg-3 p-0 m-0" style="max-width: 18rem;">
                     <img src="images/<?php
@@ -111,14 +107,22 @@ foreach ($produkter
                     </div>
                 </div>
             </div>
-        <?php
-    }
-    $count++;
-    ?>
 
     <?php
+    if ($count == 8) {
+        ?>
+        <div class="container-fluid p-0">
+            <img src="images/bannerprodukt1.webp" alt="inspiration">
+            <a href="#"><img src="images/bannerprodukt2.webp" alt="inspiration"></a>
+        </div>
+    <?php
+    }
+    $count++;
 }
 ?>
+
+
+
 
 <br><br><br><br>
 
