@@ -104,11 +104,11 @@
     <div class="col-10"><h3>for at holde dig opdateret på vores nyeste events og vores dagligdag</h3></div>
     </div>
     <div class="row justify-content-center">
-        <a class="col-3 col-lg-1" href="#"><img src="images/Facebook.png" alt="Facebook"></a>
-        <a class="col-3 col-lg-1" href="#"><img src="images/Instagram.png" alt="instagram"></a>
+        <a class="col-3 col-lg-1" href="#"><img src="images/faceDark.png" alt="Facebook"></a>
+        <a class="col-3 col-lg-1" href="#"><img src="images/InstaDark.png" alt="instagram"></a>
     </div>
 </div>
-
+<br><br>
 
 <!-- carousel -->
 <div class="container-fluid">
