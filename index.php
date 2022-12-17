@@ -34,11 +34,11 @@
 <body>
 <?php include 'nav.php';?>
 
-<div class="container-fluid d-none d-mb-block d-lg-block">
+<div class="container-fluid d-none d-mb-block d-lg-block p-0">
     <img src="images/heropc.webp" alt="cover">
 </div>
 
-<div class="container-fluid d-block d-mb-none d-lg-none">
+<div class="container-fluid d-block d-mb-none d-lg-none p-0">
     <img src="images/heromobil.webp" alt="cover">
 </div>
 
