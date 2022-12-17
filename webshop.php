@@ -38,15 +38,30 @@ $produkter = $db->sql($sql);
 
 <?php include 'nav.php'; ?>
 
-<br><br><br><br>
+<div class="container-fluid p-0">
+    <img src="images/herowebshop.webp" alt="Webshop">
+</div>
 
-<div class="row justify-content-center">
-    <a class="col-2" href="webshop.php?kategori=grønt"><img src="images/ikon1.png" alt="frugt og grønt"></a>
-    <a class="col-2" href="webshop.php?kategori=saft"><img src="images/ikon2.png" alt="saft og juice"></a>
-    <a class="col-2" href="webshop.php?kategori=krydderier"><img src="images/ikon3.png" alt="krydderier"></a>
-    <a class="col-2" href="webshop.php?kategori=mejeri"><img src="images/ikon4.png" alt="mejeri"></a>
+<br><br>
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-0 col-lg-2"></div>
+        <a class="col-2" href="index.php" style="max-height: 2em;"><img src="images/back.png" alt="back"></a>
+        <div class="col-6 justify-content-center" style="font-weight: bolder"><h2>Sortér</h2></div>
+
+        <div class="col-0 col-lg-2"></div>
+    </div>
 </div>
 <br><br>
+
+<div class="row justify-content-center align-content-end">
+    <a class="col-2 rubrik" href="webshop.php?kategori=grønt"><img src="images/ikon1.png" alt="frugt og grønt">Frugt & Grønt</a>
+    <a class="col-2 rubrik" href="webshop.php?kategori=saft"><img src="images/ikon2.png" alt="saft og juice">Saft & Juice</a>
+    <a class="col-2 rubrik" href="webshop.php?kategori=krydderier"><img src="images/ikon3.png" alt="krydderier">Krydderier</a>
+    <a class="col-2 rubrik" href="webshop.php?kategori=mejeri"><img src="images/ikon4.png" alt="mejeri">Mejeri</a>
+</div>
+<br><br><br>
 
 <div class="container">
     <div class="produkter">
