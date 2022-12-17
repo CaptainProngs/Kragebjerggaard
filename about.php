@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.cdnfonts.com/css/sans-mateo" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/pgq7ydv.css">
     <script src="https://cdn.tiny.cloud/1/ys9ivv1x233eg2mrq0d4prcpenkssm67kjeagomz2eix9ubu/tinymce/6/tinymce.min.js"
             referrerpolicy="origin"></script>
 </head>
@@ -35,46 +36,48 @@
         <div class="aboutus-img-footer" >
             <img src="images/footergraphicwhitePC.png">
         </div>
-
     </div>
 </section>
 
-<div></div>
-
 <main>
-    <div class="container-fluid bg-oliveGreen my-5 g-5 aboutus-top-fluid">
-        <div class="container aboutus-top">
-            <div class="row py-5 mx-auto aboutus-graphic">
-                <div class="col-6 col-lg-3 p-1 aboutus-card1">
-                    <img class="mx-auto d-block" src="images/cowgraphic.png">
+    <div class="container-fluid bg-oliveGreen mb-5">
+        <div class="container">
+            <div class="row mx-auto about-graphic">
+
+                <div class="col-6 col-lg-3 py-5 about-card1">
+                    <img class="mx-auto" src="images/cowgraphic.png">
                     <h5>Friluftsdyr</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. </p>
                 </div>
 
-
-                <div class="col-6 col-lg-3 p-1 aboutus-card2">
-                    <img class="mx-auto d-block" src="images/shopgraphic.png">
+                <div class="col-6 col-lg-3 py-5 about-card2">
+                    <img class="mx-auto" src="images/shopgraphic.png">
                     <h5>Gårdbutik</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. </p>
                 </div>
 
-                <div class="col-6 col-lg-3 p-1 aboutus-card3">
-                    <img class="mx-auto d-block" src="images/leafgraphic.png">
+                <div class="col-6 col-lg-3 py-5 about-card3">
+                    <img class="mx-auto" src="images/leafgraphic.png">
                     <h5>Natur</h5>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. </p>
                 </div>
 
-                <div class="col-6 col-lg-3 p-1 aboutus-card4">
-                    <img class="mx-auto d-block" src="images/tractorgraphic.png">
+                <div class="col-6 col-lg-3 py-5 about-card4">
+                    <img class="mx-auto" src="images/tractorgraphic.png">
                     <h5>Redskaber</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. </p>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="row">
+        <div class="col col-lg-12">
+            <img class="about-farmhouse-img mx-auto" src="images/farmhouse.png">
+        </div>
+        <div class="col col-lg-12"></div>
+    </div>
 </main>
-
 <?php include "footer.php" ?>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -117,13 +117,32 @@ img {
 	bottom: 0;
 }
 
-.aboutus-graphic {
-	position: relative;
-	top: -15%;
-	right: 0;
-	left: 0;
+
+.about-farmhouse-img {
+	border-radius: 0 20% 0 20%;
 }
 
+main {
+	position: relative;
+
+}
+
+.about-card1 {
+	position: absolute;
+	margin-top: -10%;
+	left: 25%;
+}
+.about-card2 {
+	position: absolute;
+	margin-top: -10%;
+	left: 50%;
+}
+
+.about-card3 {
+	position: absolute;
+	margin-top: -10%;
+	left: 75%;
+}
 .rubrik {
 	font-size:1vw;
 	font-family: "proxima nova";
@@ -134,3 +153,9 @@ img {
 }
 
 
+
+.about-card4 {
+	position: absolute;
+	top: -10%;
+	left: 100%;
+}
