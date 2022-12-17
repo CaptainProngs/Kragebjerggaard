@@ -6,7 +6,7 @@ $kategori = (!empty($_GET["kategori"])) ? $_GET["kategori"]  : "" ;
 $sql = "SELECT * FROM produkter WHERE 1=1 ";
 
 if(!empty($kategori)) {
-    $sql .= "AND prodKategori = $kategori";
+    $sql .= "AND prodKategori = '$kategori'";
 }
 
 $produkter = $db->sql($sql);
@@ -64,6 +64,25 @@ $produkter = $db->sql($sql);
 </div>
 
 
+<?php
+$count = 0;
+foreach ($produkter
+
+as $items) {
+
+
+    if($count < 8) {
+        echo $items->prodNavn
+?>
+
+<?php
+}
+    $count++;
+?>
+
+    <?php
+}
+?>
 
 
 
