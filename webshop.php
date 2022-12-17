@@ -1,11 +1,11 @@
 <?php
 require "settings/init.php";
 
-$kategori = (!empty($_GET["kategori"])) ? $_GET["kategori"]  : "" ;
+$kategori = (!empty($_GET["kategori"])) ? $_GET["kategori"] : "";
 
 $sql = "SELECT * FROM produkter WHERE 1=1 ";
 
-if(!empty($kategori)) {
+if (!empty($kategori)) {
     $sql .= "AND prodKategori = '$kategori'";
 }
 
@@ -36,7 +36,7 @@ $produkter = $db->sql($sql);
 
 <body>
 
-<?php include 'nav.php';?>
+<?php include 'nav.php'; ?>
 
 <br><br><br><br>
 
@@ -68,27 +68,44 @@ $produkter = $db->sql($sql);
 $count = 0;
 foreach ($produkter
 
-as $items) {
+         as $items) {
 
 
-    if($count < 8) {
-        echo $items->prodNavn
-?>
+    if ($count < 8) {
+        ?>
+            <div class="row justify-content-center pt-3">
+                <div class="card bg-cardPrimary col-6 col-md-6 col-lg-3 p-0 m-0" style="max-width: 18rem;">
+                    <img src="images/<?php
+                    echo $items->prodBilled ?>" class="card-img-top" alt="cover">
+                    <div class="card-body mx-2 mb-2">
+                        <h2 class="card-title p-0 mb-0"><?php
+                            echo $items->prodNavn ?></h2>
+                        <p class="card-text"><?php
+                            echo $items->prodBeskrivelse ?></p>
 
-<?php
-}
+                        <div class="row mt-2">
+                            <div class="col-10 pris"><p><?php
+                                    echo $items->prodPris ?></p></div>
+                            <a class="col-2 mb-4" href=""><img src="images/darkCart.png" class="img-cart"
+                                                               alt="cart"></a>
+                        </div>
+                        <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php
+    }
     $count++;
-?>
+    ?>
 
     <?php
 }
 ?>
 
-
-
 <br><br><br><br>
 
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
