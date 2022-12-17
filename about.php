@@ -39,17 +39,36 @@
     </div>
 </section>
 
-
+<div></div>
 
 <main>
-    <div class="container-fluid bg-oliveGreen mt-5">
+    <div class="container-fluid bg-oliveGreen my-5 g-5 aboutus-top-fluid">
+        <div class="container aboutus-top">
+            <div class="row py-5 mx-auto aboutus-graphic">
+                <div class="col-6 col-lg-3 p-1 aboutus-card1">
+                    <img class="mx-auto d-block" src="images/cowgraphic.png">
+                    <h5>Friluftsdyr</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-6 col-lg-3"></div>
-                <div class="col-6 col-lg-3"></div>
-                <div class="col-6 col-lg-3"></div>
-                <div class="col-6 col-lg-3"></div>
+
+                <div class="col-6 col-lg-3 p-1 aboutus-card2">
+                    <img class="mx-auto d-block" src="images/shopgraphic.png">
+                    <h5>Gårdbutik</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div class="col-6 col-lg-3 p-1 aboutus-card3">
+                    <img class="mx-auto d-block" src="images/leafgraphic.png">
+                    <h5>Natur</h5>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt </p>
+                </div>
+
+                <div class="col-6 col-lg-3 p-1 aboutus-card4">
+                    <img class="mx-auto d-block" src="images/tractorgraphic.png">
+                    <h5>Redskaber</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                </div>
             </div>
         </div>
     </div>
