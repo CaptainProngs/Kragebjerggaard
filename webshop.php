@@ -57,6 +57,16 @@ $produkter = $db->sql($sql);
     </div>
 </div>
 
+
+<div class="container-fluid p-0">
+    <img src="images/bannerprodukt1.webp" alt="inspiration">
+    <a href="#"><img src="images/bannerprodukt2.webp" alt="inspiration"></a>
+</div>
+
+
+
+
+
 <br><br><br><br>
 
 <?php include 'footer.php';?>

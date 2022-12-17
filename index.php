@@ -35,11 +35,11 @@
 <?php include 'nav.php';?>
 
 <div class="container-fluid d-none d-mb-block d-lg-block">
-    <img src="images/heropc.webp" alt="">
+    <img src="images/heropc.webp" alt="cover">
 </div>
 
 <div class="container-fluid d-block d-mb-none d-lg-none">
-    <img src="images/heromobil.webp" alt="">
+    <img src="images/heromobil.webp" alt="cover">
 </div>
 
 <div class="container col-11">
@@ -62,7 +62,7 @@
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Webshop</a>
+                <a href="webshop.php" class="btn btn-primary">Webshop</a>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -74,7 +74,7 @@
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Om os</a>
+                <a href="about.php" class="btn btn-primary">Om os</a>
             </div>
         </div>
     </div>
@@ -92,6 +92,68 @@
         <img src="images/bannerlandingpage.webp" alt="">
     </div>
 </section>
+
+<br><br><br><br>
+
+<!-- TEXT carousel -->
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+    <div class="col-10"><h1>Nysgerrig?</h1></div>
+    <div class="col-10"><h3>Følg os på Facebook og Instagram</h3></div>
+    <div class="col-10"><h3>for at holde dig opdateret på vores nyeste events og vores dagligdag</h3></div>
+    </div>
+    <div class="row justify-content-center">
+        <a class="col-3 col-lg-1" href="#"><img src="images/Facebook.png" alt="Facebook"></a>
+        <a class="col-3 col-lg-1" href="#"><img src="images/Instagram.png" alt="instagram"></a>
+    </div>
+</div>
+
+
+<!-- carousel -->
+<div class="container-fluid">
+    <div id="carouselExampleDarkPerson" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="card mx-auto">
+                    <img src="images/Produkterjuice3fin.png" class="card-img-top" alt="SocialMedia">
+                </div>
+                <br><br><br>
+                <div class="carousel-caption d-none d-md-block justify-content-end">
+                    <h5>Instagram feed powered by Meta</h5>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="card mx-auto">
+                    <img src="images/Produkterjuice2fin.png" class="card-img-top" alt="SocialMedia">
+                </div><br><br><br>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Instagram feed powered by Meta</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card mx-auto">
+                    <img src="images/Produkterjuice1fin.png" class="card-img-top" alt="SocialMedia">
+                </div>
+                <br><br><br>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Instagram feed powered by Meta</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDarkPerson"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDarkPerson"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
 
 
 
