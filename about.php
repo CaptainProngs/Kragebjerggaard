@@ -173,16 +173,17 @@
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12">
+                        <div class="col-12 mb-5">
+                            <p>En vigtig brik er miljøet samt dyrelivet. Alle vores marker er økologiske, og der bliver ikke sprøjtet med kemikalier. Det giver muligvis et mindre udbytte, men til gengæld er jorden sund og grundvandet rent.
+                                <br><br>
+                                Som en vigtig del af processen inden vi køre vores marker, sikre vi at ingen rålam gemmer sig i kornet,  med droneudstyr, der tjekker marken med infrarød. Sådan undgår vi triste omstændigheder når markerne høstes.
+                                <br>
+                                Udover dette, så planter vi også blomster der er med til at øge bestanden af sommerfugle og honningbier.
+                            </p>
+                        </div>
                         <img class="natureabout mx-auto mb-4" alt="Picture of a field" src="images/aboutnatureimg.png">
                     </div>
-                    <div class="col-12 mb-5">
-                        <p>En vigtig brik er miljøet samt dyrelivet. Alle vores marker er økologiske, og der bliver ikke sprøjtet med kemikalier. Det giver muligvis et mindre udbytte, men til gengæld er jorden sund og grundvandet rent.
-                            <br><br>
-                            Som en vigtig del af processen inden vi køre vores marker, sikre vi at ingen rålam gemmer sig i kornet,  med droneudstyr, der tjekker marken med infrarød. Sådan undgår vi triste omstændigheder når markerne høstes.
-                            <br>
-                            Udover dette, så planter vi også blomster der er med til at øge bestanden af sommerfugle og honningbier.
-                        </p>
-                    </div>
+
                 </div>
             </div>
         </div>
