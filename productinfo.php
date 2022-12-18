@@ -23,7 +23,7 @@ $produkt = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [':prodId'
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="keywords"
-          content="søgeord1, søgeord2, søgeord3">
+          content="grøntsager, saft, mælk, mejeri, lokal gårdbutik, sæson, krydderurter">
 
     <meta property="og:title" content="Økologisk landbrug" />
     <meta property="og:type" content="website" />

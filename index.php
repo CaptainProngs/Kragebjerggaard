@@ -20,7 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="keywords"
-          content="søgeord1, søgeord2, søgeord3">
+          content="økologisk landbrug, gårdbutik, dyrevelfærd, gårdbutik sjælland, hjemmelavet">
 
     <meta property="og:title" content="Økologisk landbrug" />
     <meta property="og:type" content="website" />
