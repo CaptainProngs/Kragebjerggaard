@@ -53,7 +53,7 @@ $produkter = $db->sql($sql);
     <div class="row justify-content-center">
         <div class="col-0 col-lg-2"></div>
         <a class="col-2" href="index.php" style="max-height: 2em;"><img src="images/back.png" alt="back"></a>
-        <div class="col-6 justify-content-center" style="font-weight: bolder"><h2>Sortér</h2></div>
+        <div class="col-6 text-center" style="font-weight: bolder"><h2>Sortér</h2></div>
 
         <div class="col-0 col-lg-2"></div>
     </div>
