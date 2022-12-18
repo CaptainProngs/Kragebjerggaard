@@ -98,7 +98,7 @@
 
 <article class="container col-10 mb-5 mt-5">
     <div class="row justify-content-center">
-        <img class="col-2" src="images/oekoikon.webp" alt="">
+        <img class="col-2" src="images/oekoikon.webp" style="min-width: 8em; min-height: 5em; " alt="øko">
         <h3 class="col-8">På kragebjerggård går vi højt op for kvalitet, og derfor er alle vores produkter
             økologiske</h3>
     </div>
