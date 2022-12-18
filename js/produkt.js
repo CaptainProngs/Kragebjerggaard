@@ -35,7 +35,7 @@ export default class Produkt {
             <div class="col-10 pris"><p>${item.prodPris}</p></div>
             <a class="col-2 mb-4" href=""><img src="images/darkCart.png" class="img-cart" alt="cart"></a>
         </div>
-        <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a></div>
+        <div class="d-grid"><a href="productinfo.php?prodId=${item.prodId}" class="btn" style="background-color: #71783a">Læs mere</a></div>
     </div>
 </div>
         `;
