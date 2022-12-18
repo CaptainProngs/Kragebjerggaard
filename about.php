@@ -9,10 +9,25 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <meta name=”description" content='Information om gården, dens indehavere og deres værdier'>
+
+    <meta name=”robots" content=”index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords"
+          content="Frilands grøntsøger, lokal, vestjsælland, køer, høns, mejeri, naturligt">
+
+    <meta property="og:title" content="Økologisk landbrug" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.kragebjerggaard.dk" />
+    <meta property="og:image" content="https://www.kragebjerggaard.dk/heromobil.webp" />
+    <meta property="og:description" content="Information om gården, dens indehavere og deres værdier"/>
+    <meta property="og:locale" content="da_DK" />
+
+    <meta itemprop="name" content="Kragebjerggaard" />
+
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.cdnfonts.com/css/sans-mateo" rel="stylesheet">
@@ -47,25 +62,25 @@
                 <div class="col-6 col-lg-3 py-5 about-card1">
                     <a href="#cowgraphic"><img alt="graphic of a cow in a field" class="mx-auto" src="images/cowgraphic.png"></a>
                     <h5>Friluftsdyr</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. </p>
+                    <p>Vi går op i kvalitet, dette gælder også livskvalitet for vores dyr.   </p>
                 </div>
 
                 <div class="col-6 col-lg-3 py-5 about-card2">
                     <a href="#shopgraphic"><img class="mx-auto" alt="Graphic of a tiny shop" src="images/shopgraphic.png"></a>
                     <h5>Gårdbutik</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. </p>
+                    <p>Vi er stolte over at kunne sælge vores egne produkter, i vores helt egen gårdbutik. </p>
                 </div>
 
                 <div class="col-6 col-lg-3 py-5 about-card3">
                     <a href="#naturegraphic"><img class="mx-auto" alt="Graphic of leaves" src="images/leafgraphic.png"></a>
                     <h5>Natur</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. </p>
+                    <p>At passe på miljøet er en vigtig ting for os, derfor er alt hvad vi laver økologisk. </p>
                 </div>
 
                 <div class="col-6 col-lg-3 py-5 about-card4">
                     <a href="#tractorgraphic"><img class="mx-auto" alt="Graphic of a tractor" src="images/tractorgraphic.png"></a>
                     <h5>Redskaber</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. </p>
+                    <p>Vi går op i bæredygtige muligheder, og sørger altid for, at vores køretøjer er op til standard. </p>
                 </div>
             </div>
         </div>
@@ -76,11 +91,11 @@
             <div class="row mb-5">
                 <div class="col-12 col-lg-6">
                     <img class="about-farmhouse-img pb-4" alt="Farmhouse" src="images/farmhouseimage.png">
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+                    <p class="mb-5">Kragebjerggård blev opført i 1880 og har altid været i Kvist familien, som altid har opretholdet sit syn på med ærlighed og kvalitet, kommer man længst med. Gården har været igennem 3 gange at blive renoveret og det seneste var i 2005, da gården blev forøget med en ny kostald. </p>
                 </div>
                 <div class="col-12 col-lg-6">
                     <img class="about-aboutus-img pb-4" alt="Couple holding herbs" src="images/aboutusimage.png">
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+                    <p class="mb-5">Lige nu bliver gården drevet af Karsten og hans kone Trine Kvist, som med deres tre børn, døtrene Katrine og Ann Sofie, samt deres søn Bjorn, sørger for, at kvaliteten er efter forventning. Udover familien, er der også 7 ansatte, som er med til at opretholde standen af gården, samt pasningen af alle gårdens talrige dyr. </p>
                 </div>
             </div>
         </div>
@@ -97,23 +112,13 @@
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12 col-lg-6 mb-5">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                           <br><br><br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        <p>En af kerneværdierne på Kragebjerggård, er at dyrene skal have det godt. Dette bunder i, at ikke nok med at det foder de fodre med, skal passe til dyrenes behov, det skal også indeholde vigtige mineraler og vitaminer. Samt godt med tyggetid og rene faciliteter.
                             <br><br><br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e
+                            En anden vigtig ting, er at dyrene får massere af tid på store folde, såsom deres køer eller frit gående, som deres høns, hele året rundt. Skulle vejret dog blive ekstremt dårligt, så er der godt ventileret stalde med rent halm og frisk vand, klar til dyrene.
+                            <br><br><br>
+                            Men en ting er forholdene og maden, det andet er det sociale. Familien Kvist går meget op i, at deres dyr også har det godt socialt, og derfor er ingen dyr alene, samt de får massere af kæl og klap hver dag.
+                            <br><br><br>
+                            Derudover er der også mulighed for familier at komme på besøg på åben hus eller til de forskellige events, og kæle med gårdens dyr.
                         </p>
                     </div>
 
@@ -136,23 +141,16 @@
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12 col-lg-6 mb-5">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            <br><br><br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            <br><br><br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore e
+                        <p>
+                            Som en af de nyere ting på Kragebjerggård, er gårdbutikken.
+                            <br><br>
+                            Den er lavet efter at det skulle være hjemmeligt, men eksklusiv, hvor der ikke bliver sparet på kvalitet.
+                            <br><br>
+                            Her sælger vi blandet andet mælk, saft og juice, ost, grønsager, frugt, samt krydderier.
+                            <br><br>
+                            Alt sammen dyrket på egne arialer. Alle produkter er økologiske og danske, frisk og der bliver sorteret nøje efter kun det bedste bliver solgt i gårdbutikken.
+                            <br><br>
+                            Som en ny tjeneste er der nu også mulighed for click & collect.
                         </p>
                     </div>
 
@@ -175,21 +173,17 @@
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12">
+                        <div class="col-12 mb-5">
+                            <p>En vigtig brik er miljøet samt dyrelivet. Alle vores marker er økologiske, og der bliver ikke sprøjtet med kemikalier. Det giver muligvis et mindre udbytte, men til gengæld er jorden sund og grundvandet rent.
+                                <br><br>
+                                Som en vigtig del af processen inden vi køre vores marker, sikre vi at ingen rålam gemmer sig i kornet,  med droneudstyr, der tjekker marken med infrarød. Sådan undgår vi triste omstændigheder når markerne høstes.
+                                <br>
+                                Udover dette, så planter vi også blomster der er med til at øge bestanden af sommerfugle og honningbier.
+                            </p>
+                        </div>
                         <img class="natureabout mx-auto mb-4" alt="Picture of a field" src="images/aboutnatureimg.png">
                     </div>
-                    <div class="col-12 mb-5">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                        </p>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -206,10 +200,7 @@
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12 mb-5">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <p>En ting er miljøet, andet er at vi altid sørger for at vi bruger bæredygtige midler, og når vi kører med vores større maskiner, hvor det ikke helt kan undgås at udlade CO2, så sørger vi altid at de er miljøgodkendte, er overholder krævene for at mindske forurening.
                         </p>
                     </div>
                     <div class="col-12">

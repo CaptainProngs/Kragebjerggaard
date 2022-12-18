@@ -26,6 +26,9 @@ $produkter = $db->sql($sql);
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <meta name="keywords"
+          content="click and collect, lokal produceret mælk, mælk, mejeri, køer økologisk mælkeproduktion, sæson, økologisk">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
@@ -125,6 +128,8 @@ $produkter = $db->sql($sql);
 $count++;
 }
 ?>
+
+
 
 
 <br><br><br><br>

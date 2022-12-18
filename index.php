@@ -20,7 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="keywords"
-          content="søgeord1, søgeord2, søgeord3">
+          content="økologisk landbrug, gårdbutik, dyrevelfærd, gårdbutik sjælland, hjemmelavet">
 
     <meta property="og:title" content="Økologisk landbrug" />
     <meta property="og:type" content="website" />
@@ -61,28 +61,28 @@
     </div>
 </div>
 
-<section class="container col-8">
+<section class="container col-10 mt-5">
     <div class="row text-center">
     <h1>Kragebjerggård inviterer til begivenhedsrige stunder</h1>
     </div>
 </section>
 
-<section class="container col-8 mt-5 d-flex">
-    <div class="row justify-content-center">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
+<section class="container col-10 mt-5 d-flex">
+    <div class="row justify-content-center m-5">
+        <div class="card col-lg-4 col-md-4">
+            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 30vw" alt="Card image cap">
             <div class="card-body">
                 <a href="webshop.php" class="btn btn-primary">Webshop</a>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
+        <div class="card col-lg-4 col-md-4">
+            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 30vw" alt="Card image cap">
             <div class="card-body">
                 <a href="#" class="btn btn-primary">Events</a>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 25vh" alt="Card image cap">
+        <div class="card col-lg-4 col-md-4">
+            <img class="card-img-top" src="images/knapwebshop.webp" style="width: 30vw" alt="Card image cap">
             <div class="card-body">
                 <a href="about.php" class="btn btn-primary">Om os</a>
             </div>
@@ -90,38 +90,44 @@
     </div>
 </section>
 
-<article class="container col-8">
-    <div class="row">
-        <img class="col-4" src="images/oekoikon.webp" alt="">
-    <h3 class="col-4">På kragebjerggård går vi højt på for kvalitet, og derfor er alle vores produkter økologiske</h3>
+<article class="container col-10 mb-5 mt-5">
+    <div class="row justify-content-center">
+        <img class="col-2" src="images/oekoikon.webp" alt="">
+    <h3 class="col-8">På kragebjerggård går vi højt på for kvalitet, og derfor er alle vores produkter økologiske</h3>
     </div>
 </article>
 
-<section class="container-fluid">
+<section class="container-fluid p-0">
     <div class="row">
         <img src="images/bannerlandingpage.webp" alt="">
     </div>
 </section>
 
-<br><br><br><br>
+<div class="container-fluid">
+    <div class="col-12 p-5 m-5"></div>
+</div>
 
 <!-- TEXT carousel -->
 
-<div class="container-fluid">
-    <div class="row justify-content-center">
-    <div class="col-10"><h1>Nysgerrig?</h1></div>
-    <div class="col-10"><h3>Følg os på Facebook og Instagram</h3></div>
-    <div class="col-10"><h3>for at holde dig opdateret på vores nyeste events og vores dagligdag</h3></div>
+<div class="container col-10">
+    <div class="row text-center">
+    <div><h1>Nysgerrig?</h1></div>
+        <div><br><br></div>
+    <div><h3>Følg os på Facebook og Instagram</h3></div>
+    <div><h3>for at holde dig opdateret på vores nyeste events og vores dagligdag</h3></div>
+    </div>
+    <div class="container-fluid">
+        <div class="p-3 m-3"></div>
     </div>
     <div class="row justify-content-center">
-        <a class="col-3 col-lg-1" href="#"><img src="images/faceDark.png" alt="Facebook"></a>
-        <a class="col-3 col-lg-1" href="#"><img src="images/InstaDark.png" alt="instagram"></a>
+        <a class="col-sm-2 col-3 col-lg-1" href="#"><img src="images/faceDark.png" alt="Facebook"></a>
+        <a class="col-sm-2 col-3 col-lg-1 justify-content-center" href="#"><img src="images/InstaDark.png" alt="instagram"></a>
     </div>
 </div>
 <br><br>
 
 <!-- carousel -->
-<div class="container-fluid">
+<div class="container col-7 col-lg-6">
     <div id="carouselExampleDarkPerson" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
         <div class="carousel-inner">
@@ -129,26 +135,16 @@
                 <div class="card mx-auto">
                     <img src="images/Produkterjuice3fin.png" class="card-img-top" alt="SocialMedia">
                 </div>
-                <br><br><br>
-                <div class="carousel-caption d-none d-md-block justify-content-end">
-                    <h5>Instagram feed powered by Meta</h5>
+
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="card mx-auto">
+                    <img src="images/krydderiprod3fin.png" class="card-img-top" alt="SocialMedia">
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <div class="card mx-auto">
-                    <img src="images/Produkterjuice2fin.png" class="card-img-top" alt="SocialMedia">
-                </div><br><br><br>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Instagram feed powered by Meta</h5>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card mx-auto">
                     <img src="images/Produkterjuice1fin.png" class="card-img-top" alt="SocialMedia">
-                </div>
-                <br><br><br>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Instagram feed powered by Meta</h5>
                 </div>
             </div>
         </div>
@@ -163,9 +159,16 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+    <div class="row m-0">
+    <div class="text-end">
+        <h5>Instagram feed powered by Meta</h5>
+    </div>
+    </div>
 </div>
 
-
+<div class="container-fluid">
+    <div class="col-12 p-5 m-5"></div>
+</div>
 
 <?php include 'footer.php';?>
 
