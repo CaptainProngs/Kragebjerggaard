@@ -96,11 +96,13 @@
     <div class="col-12 p-3 m-3 p-md-5 p-lg-5 m-lg-5 m-mb-5"></div>
 </div>
 
-<article class="container col-10 mb-5 mt-5">
+<article class="scroll-container container col-10 mb-5 mt-5">
+    <div class="scroll-element js-scroll slide-right">
     <div class="row justify-content-center">
-        <img class="col-2" src="images/oekoikon.webp" alt="">
-        <h3 class="col-8">På kragebjerggård går vi højt op for kvalitet, og derfor er alle vores produkter
-            økologiske</h3>
+            <img class="col-2" src="images/oekoikon.webp" alt="oeko ikon">
+            <h3 class="col-8">På kragebjerggård går vi højt op for kvalitet, og derfor er alle vores produkter
+                økologiske</h3>
+        </div>
     </div>
 </article>
 
@@ -122,10 +124,20 @@
     </div>
 </article>
 
+<div class="container-fluid d-mb-none d-lg-none">
+    <div class="col-12 p-4 m-4"></div>
+</div>
+
+<section class="scroll-container mx-auto">
+    <div class="scroll-element js-scroll slide-left">
+        <img class=" d-none d-sm-none d-mb-block d-lg-block" src="images/LargInfoG.png" alt="infografik">
+        <img class="d-block d-mb-none d-lg-none" src="images/infoGrafikS.png" alt="infografik">
+    </div>
+</section>
+
 <div class="container-fluid">
     <div class="col-12 p-5 m-5"></div>
 </div>
-
 
 <!-- TEXT carousel -->
 
@@ -194,5 +206,51 @@
 <?php include 'footer.php'; ?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+
+    const scrollElements = document.querySelectorAll(".js-scroll");
+
+    const elementInView = (el, dividend = 1) => {
+        const elementTop = el.getBoundingClientRect().top;
+
+        return (
+            elementTop <=
+            (window.innerHeight || document.documentElement.clientHeight) / dividend
+        );
+    };
+
+    const elementOutofView = (el) => {
+        const elementTop = el.getBoundingClientRect().top;
+
+        return (
+            elementTop > (window.innerHeight || document.documentElement.clientHeight)
+        );
+    };
+
+    const displayScrollElement = (element) => {
+        element.classList.add("scrolled");
+    };
+
+    const hideScrollElement = (element) => {
+        element.classList.remove("scrolled");
+    };
+
+    const handleScrollAnimation = () => {
+        scrollElements.forEach((el) => {
+            if (elementInView(el, 1.25)) {
+                displayScrollElement(el);
+            } else if (elementOutofView(el)) {
+                hideScrollElement(el)
+            }
+        })
+    }
+
+    window.addEventListener("scroll", () => {
+        handleScrollAnimation();
+    });
+
+</script>
 </body>
 </html>
