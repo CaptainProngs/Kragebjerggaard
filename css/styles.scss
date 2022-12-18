@@ -126,17 +126,6 @@ img {
 	border-radius: 0 20% 0 0;
 }
 
-@media screen and (max-width: 991px){
-	.about-farmhouse-img {
-		border-radius: 0 20% 0 20%;
-	}
-
-	.about-aboutus-img {
-		border-radius: 0 20% 0 20%;
-	}
-
-}
-
 .farmhousesection {
 	margin-bottom: 100px;
 }
@@ -165,3 +154,23 @@ img {
 	border-radius: 0 30% 0 30%;
 }
 
+.section-top p {
+	font-family: proxima-nova;
+	font-size: 1.5rem;
+
+}
+
+@media screen and (max-width: 991px){
+	.about-farmhouse-img {
+		border-radius: 0 20% 0 20%;
+	}
+
+	.about-aboutus-img {
+		border-radius: 0 20% 0 20%;
+	}
+
+	.section-top p {
+		font-size: 1rem;
+	}
+
+}

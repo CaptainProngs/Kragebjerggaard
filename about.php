@@ -9,10 +9,25 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <meta name=”description" content='Information om gården, dens indehavere og deres værdier'>
+
+    <meta name=”robots" content=”index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords"
+          content="søgeord1, søgeord2, søgeord3">
+
+    <meta property="og:title" content="Økologisk landbrug" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.kragebjerggaard.dk" />
+    <meta property="og:image" content="https://www.kragebjerggaard.dk/heromobil.webp" />
+    <meta property="og:description" content="Information om gården, dens indehavere og deres værdier"/>
+    <meta property="og:locale" content="da_DK" />
+
+    <meta itemprop="name" content="Kragebjerggaard" />
+
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.cdnfonts.com/css/sans-mateo" rel="stylesheet">
@@ -162,7 +177,7 @@
                     </div>
                     <div class="col-12 mb-5">
                         <p>En vigtig brik er miljøet samt dyrelivet. Alle vores marker er økologiske, og der bliver ikke sprøjtet med kemikalier. Det giver muligvis et mindre udbytte, men til gengæld er jorden sund og grundvandet rent.
-                            <br>
+                            <br><br>
                             Som en vigtig del af processen inden vi køre vores marker, sikre vi at ingen rålam gemmer sig i kornet,  med droneudstyr, der tjekker marken med infrarød. Sådan undgår vi triste omstændigheder når markerne høstes.
                             <br>
                             Udover dette, så planter vi også blomster der er med til at øge bestanden af sommerfugle og honningbier.
