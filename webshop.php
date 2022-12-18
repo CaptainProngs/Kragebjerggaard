@@ -140,7 +140,7 @@ $count++;
 
 <script>
     function myFunction(x) {
-        x.classList.toggle("change");
+        x.classList.toggle("change");0p
     }
 </script>
 
