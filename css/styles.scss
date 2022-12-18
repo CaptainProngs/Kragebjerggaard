@@ -27,6 +27,7 @@ p {
 	margin: 0;
 	padding: 0;
 	font-family: "proxima nova";
+	font-size: larger;
 
 }
 
@@ -190,4 +191,9 @@ img {
 		font-size: 1rem;
 	}
 
+}
+
+.btn-lg{
+	padding: 0.1rem 3rem;
+	background-color: #6f7831;
 }
