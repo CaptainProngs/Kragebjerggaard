@@ -197,3 +197,38 @@ img {
 	padding: 0.1rem 3rem;
 	background-color: #6f7831;
 }
+
+
+.scrolled.slide-right {
+	animation: slide-in-right 1s ease-in-out both;
+}
+
+@keyframes slide-in-right {
+	0% {
+		-webkit-transform: translateX(100px);
+		transform: translateX(100px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.scrolled.slide-left {
+	animation: slide-in-left 1s ease-in-out both;
+}
+
+@keyframes slide-in-left {
+	0% {
+		-webkit-transform: translateX(-100px);
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1;
+	}
+}

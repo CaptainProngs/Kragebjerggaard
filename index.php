@@ -96,8 +96,13 @@
     <div class="col-12 p-3 m-3 p-md-5 p-lg-5 m-lg-5 m-mb-5"></div>
 </div>
 
-<article class="container col-10 mb-5 mt-5">
+<article class="scroll-container container col-10 mb-5 mt-5">
+    <div class="scroll-element js-scroll slide-right">
     <div class="row justify-content-center">
+            <img class="col-2" src="images/oekoikon.webp" alt="oeko ikon">
+            <h3 class="col-8">På kragebjerggård går vi højt op for kvalitet, og derfor er alle vores produkter
+                økologiske</h3>
+        </div>
         <img class="col-2" src="images/oekoikon.webp" style="min-width: 8em; min-height: 5em; " alt="øko">
         <h3 class="col-8">På kragebjerggård går vi højt op for kvalitet, og derfor er alle vores produkter
             økologiske</h3>
