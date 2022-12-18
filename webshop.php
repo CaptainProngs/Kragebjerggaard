@@ -49,19 +49,24 @@ $produkter = $db->sql($sql);
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-0 col-lg-2"></div>
-        <a class="col-2" href="index.php" style="max-height: 2em;"><img src="images/back.png" alt="back"></a>
-        <div class="col-6 justify-content-center" style="font-weight: bolder"><h2>Sortér</h2></div>
+        <a class="col-2 col-lg-2" href="index.php" style="max-height: 2em;"><img src="images/back.png" alt="back"></a>
+        <div class="col-6 col-lg-5 justify-content-center text-center" style="font-weight: bolder"><h2>Sortér</h2></div>
 
-        <div class="col-0 col-lg-2"></div>
+        <div class="col-0 col-lg-3"></div>
     </div>
 </div>
 <br><br>
 
-<div class="row justify-content-center align-content-end">
-    <a class="col-2 rubrik" href="webshop.php?kategori=grønt"><img src="images/ikon1.png" alt="frugt og grønt">Frugt & Grønt</a>
-    <a class="col-2 rubrik" href="webshop.php?kategori=saft"><img src="images/ikon2.png" alt="saft og juice">Saft & Juice</a>
-    <a class="col-2 rubrik" href="webshop.php?kategori=krydderier"><img src="images/ikon3.png" alt="krydderier">Krydderier</a>
-    <a class="col-2 rubrik" href="webshop.php?kategori=mejeri"><img src="images/ikon4.png" alt="mejeri">Mejeri</a>
+<div class="row justify-content-center">
+    <a class="col-6 col-lg-2 rubrik" href="webshop.php?kategori=grønt"><img src="images/ikon1.png" alt="frugt og grønt">Frugt
+        &
+        Grønt</a>
+    <a class="col-6 col-lg-2 rubrik" href="webshop.php?kategori=saft"><img src="images/ikon2.png" alt="saft og juice">Saft
+        &
+        Juice</a>
+    <a class="col-6 col-lg-2 rubrik" href="webshop.php?kategori=krydderier"><img src="images/ikon3.png"
+                                                                                 alt="krydderier">Krydderier</a>
+    <a class="col-6 col-lg-2 rubrik" href="webshop.php?kategori=mejeri"><img src="images/ikon4.png" alt="mejeri">Mejeri</a>
 </div>
 <br><br><br>
 
@@ -75,53 +80,51 @@ $produkter = $db->sql($sql);
 </div>
 
 
+<div class="row justify-content-center pt-3">
+    <div class="col-6 col-md-6 col-lg-3 p-0 m-0" style="max-width: 18rem;">
 
+        <?php
+        $count = 0;
+        foreach ($produkter
 
-<?php
-$count = 0;
-foreach ($produkter
+        as $items) {
 
-         as $items) {
+        ?>
+        <div class="card bg-cardPrimary" style="max-width: 18rem;">
+            <img src="images/<?php
+            echo $items->prodBilled ?>" class="card-img-top" alt="cover">
+            <div class="card-body mx-2 mb-2">
+                <h2 class="card-title p-0 mb-0"><?php
+                    echo $items->prodNavn ?></h2>
+                <p class="card-text"><?php
+                    echo $items->prodBeskrivelse ?></p>
 
-?>
-
-
-            <div class="row justify-content-center pt-3">
-                <div class="card bg-cardPrimary col-6 col-md-6 col-lg-3 p-0 m-0" style="max-width: 18rem;">
-                    <img src="images/<?php
-                    echo $items->prodBilled ?>" class="card-img-top" alt="cover">
-                    <div class="card-body mx-2 mb-2">
-                        <h2 class="card-title p-0 mb-0"><?php
-                            echo $items->prodNavn ?></h2>
-                        <p class="card-text"><?php
-                            echo $items->prodBeskrivelse ?></p>
-
-                        <div class="row mt-2">
-                            <div class="col-10 pris"><p><?php
-                                    echo $items->prodPris ?></p></div>
-                            <a class="col-2 mb-4" href=""><img src="images/darkCart.png" class="img-cart"
-                                                               alt="cart"></a>
-                        </div>
-                        <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a>
-                        </div>
-                    </div>
+                <div class="row mt-2">
+                    <div class="col-10 pris"><p><?php
+                            echo $items->prodPris ?></p></div>
+                    <a class="col-2 mb-4" href=""><img src="images/darkCart.png" class="img-cart"
+                                                       alt="cart"></a>
+                </div>
+                <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a>
                 </div>
             </div>
-
-    <?php
-    if ($count == 8) {
-        ?>
-        <div class="container-fluid p-0">
-            <img src="images/bannerprodukt1.webp" alt="inspiration">
-            <a href="#"><img src="images/bannerprodukt2.webp" alt="inspiration"></a>
         </div>
-    <?php
-    }
-    $count++;
+
+
+        <?php
+        if ($count == 8) {
+        ?>
+    </div>
+</div>
+    <div class="container-fluid p-0">
+        <img src="images/bannerprodukt1.webp" alt="inspiration">
+        <a href="#"><img src="images/bannerprodukt2.webp" alt="inspiration"></a>
+    </div>
+<?php
+}
+$count++;
 }
 ?>
-
-
 
 
 <br><br><br><br>
