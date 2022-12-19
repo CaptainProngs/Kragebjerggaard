@@ -12,10 +12,7 @@ $randomProdukt1 = $produkter[$randomProdukter1];
 $randomProdukter2 = array_rand($produkter);
 $randomProdukt2 = $produkter[$randomProdukter2];
 
-$id = $_GET['prodId'];
-$produkt = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [':prodId' => $id]);
 ?>
-
 
 
     <div class="row mx-auto">
