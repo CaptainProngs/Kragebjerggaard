@@ -35,7 +35,7 @@
 <article class="container col-12 justify-content-center">
     <div class="row">
         <div class="col-4 pt-5">
-            <h2>hov der skete en fejl</h2>
+            <div class="title" style="font-weight: bold"><h2>hov der skete en fejl</h2></div>
             <br>
             <h5>Græd ikke over spildt mælk</h5>
             <br>
