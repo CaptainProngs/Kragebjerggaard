@@ -11,12 +11,15 @@ $randomProdukt1 = $produkter[$randomProdukter1];
 
 $randomProdukter2 = array_rand($produkter);
 $randomProdukt2 = $produkter[$randomProdukter2];
+
+$id = $_GET['prodId'];
+$produkt = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [':prodId' => $id]);
 ?>
 
 
 
     <div class="row mx-auto">
-        <div class="card bg-cardPrimary col-12 col-lg-4 mx-auto mb-5" style="max-width: 18rem;">
+        <div class="card bg-cardPrimary p-0 col-12 col-lg-4 mx-auto mb-5" style="max-width: 18rem;">
             <img src="images/<?php echo $randomProdukt->prodBilled; ?>" class="card-img-top" alt="...">
             <div class="card-body mx-2 mb-2">
                 <h2 class="card-title p-0 mb-0"><?php echo $randomProdukt->prodNavn; ?></h2>
@@ -26,11 +29,11 @@ $randomProdukt2 = $produkter[$randomProdukter2];
                     <div class="col-10 pris"><p><?php echo $randomProdukt->prodPris?> DKK</p></div>
                     <a class="col-2 mb-4" href=""><img src="images/darkCart.png" class="img-cart" alt="cart"></a>
                 </div>
-                <div class="d-grid"><a href="productinfo.php?prodId=${item.prodId}" class="btn" style="background-color: #71783a">Læs mere</a></div>
+                <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a></div>
             </div>
         </div>
 
-        <div class="card bg-cardPrimary col-12 col-lg-4 mx-auto mb-5" style="max-width: 18rem;">
+        <div class="card bg-cardPrimary p-0 col-12 col-lg-4 mx-auto mb-5" style="max-width: 18rem;">
             <img src="images/<?php echo $randomProdukt1->prodBilled; ?>" class="card-img-top" alt="...">
             <div class="card-body mx-2 mb-2">
                 <h2 class="card-title p-0 mb-0"><?php echo $randomProdukt1->prodNavn; ?></h2>
@@ -40,11 +43,11 @@ $randomProdukt2 = $produkter[$randomProdukter2];
                     <div class="col-10 pris"><p><?php echo $randomProdukt1->prodPris?> DKK</p></div>
                     <a class="col-2 mb-4" href=""><img src="images/darkCart.png" class="img-cart" alt="cart"></a>
                 </div>
-                <div class="d-grid"><a href="productinfo.php?prodId=${item.prodId}" class="btn" style="background-color: #71783a">Læs mere</a></div>
+                <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a></div>
             </div>
         </div>
 
-        <div class="card bg-cardPrimary col-12 col-lg-4 mx-auto mb-5" style="max-width: 18rem;">
+        <div class="card bg-cardPrimary p-0 col-12 col-lg-4 mx-auto mb-5" style="max-width: 18rem;">
             <img src="images/<?php echo $randomProdukt2->prodBilled; ?>" class="card-img-top" alt="...">
             <div class="card-body mx-2 mb-2">
                 <h2 class="card-title p-0 mb-0"><?php echo $randomProdukt2->prodNavn; ?></h2>
@@ -54,7 +57,7 @@ $randomProdukt2 = $produkter[$randomProdukter2];
                     <div class="col-10 pris"><p><?php echo $randomProdukt2->prodPris?> DKK</p></div>
                     <a class="col-2 mb-4" href=""><img src="images/darkCart.png" class="img-cart" alt="cart"></a>
                 </div>
-                <div class="d-grid"><a href="productinfo.php?prodId=${item.prodId}" class="btn" style="background-color: #71783a">Læs mere</a></div>
+                <div class="d-grid"><a href="#" class="btn" style="background-color: #71783a">Læs mere</a></div>
             </div>
         </div>
 
