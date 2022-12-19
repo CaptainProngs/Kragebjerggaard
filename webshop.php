@@ -73,18 +73,8 @@ $produkter = $db->sql($sql);
 </div>
 <br><br><br>
 
-<div class="container">
-    <div class="produkter">
-        <div class="row">
-            <div class="items">
-            </div>
-        </div>
-    </div>
-</div>
-
-
 <div class="row justify-content-center pt-3">
-    <div class="col-6 col-md-6 col-lg-3 p-0 m-0" style="max-width: 18rem;">
+
 
         <?php
         $count = 0;
@@ -93,6 +83,7 @@ $produkter = $db->sql($sql);
         as $items) {
 
         ?>
+    <div class="col-6 col-md-6 col-lg-3 p-3 m-0" style="max-width: 18rem;">
         <div class="card bg-cardPrimary" style="max-width: 18rem;">
             <img src="images/<?php
             echo $items->prodBilled ?>" class="card-img-top" alt="cover">
@@ -112,13 +103,14 @@ $produkter = $db->sql($sql);
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <?php
+<?php
         if ($count == 8) {
         ?>
-    </div>
-</div>
+
+
     <div class="container-fluid p-0">
         <img src="images/bannerprodukt1.webp" alt="inspiration">
         <a href="#"><img src="images/bannerprodukt2.webp" alt="inspiration"></a>
@@ -128,8 +120,7 @@ $produkter = $db->sql($sql);
 $count++;
 }
 ?>
-
-
+</div>
 
 
 <br><br><br><br>
