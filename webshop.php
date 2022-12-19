@@ -83,7 +83,7 @@ $produkter = $db->sql($sql);
 </div>
 
 
-
+<div class="container">
 <div class="row justify-content-center pt-3">
 
 
@@ -94,7 +94,7 @@ $produkter = $db->sql($sql);
              as $items) {
 
         ?>
-        <div class="col-6 col-md-4 col-lg-3 col-xl-3 p-3 m-0">
+        <div class="col-6 col-md-4 col-lg-3 col-xl-3 py-4 justify-content-center m-0">
             <div class="card bg-cardPrimary" style="max-width: 18rem;">
                 <img src="images/<?php
                 echo $items->prodBilled ?>" class="card-img-top" alt="cover">
@@ -132,6 +132,7 @@ $produkter = $db->sql($sql);
         $count++;
     }
     ?>
+</div>
 </div>
 
 
