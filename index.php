@@ -3,7 +3,7 @@
 
 
 <!DOCTYPE html>
-<html lang="da" xmlns="http://www.w3.org/1999/html">
+<html lang="da">
 <head>
     <meta charset="utf-8">
 
@@ -108,7 +108,7 @@
 
 <section class="container-fluid p-0">
     <div class="row">
-        <img src="images/info%20grafik.png" alt="grafik">
+        <img src="images/bannerlan.webp" alt="banner">
     </div>
 </section>
 
@@ -129,8 +129,7 @@
 
 <section class="scroll-container mx-auto">
     <div class="scroll-element js-scroll slide-left">
-        <img class=" d-none d-sm-none d-mb-block d-lg-block" src="images/LargInfoG.png" alt="infografik">
-        <img class="d-block d-mb-none d-lg-none" src="images/infoGrafikS.png" alt="infografik">
+        <img class="col-10 col-lg-10" src="images/info%20grafik.png" alt="infografik">
     </div>
 </section>
 
