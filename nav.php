@@ -24,7 +24,7 @@ echo '
                 <a class="nav-link p-2 px-5" style="font-size: x-large" href="webshop.php">Webshop</a>
                 <a class="nav-link p-2 px-5" style="font-size: x-large" href="404.php">Events</a>
                 <a class="nav-link p-2 px-5" style="font-size: x-large" href="about.php">Om os</a>
-                <a class="nav-link px-4" href="kurv.php"><img class="float-end" style="max-height: 40px" src="images/kurv.png" alt="cart"></a>
+                <a class="nav-link px-4" href="#"><img class="float-end" style="max-height: 40px" src="images/kurv.png" alt="cart"></a>
             </div>
         </div>
     </div>

@@ -9,10 +9,10 @@ if(CONFIG_LIVE == 0){
     $DB_USER = "root";
     $DB_PASS = "root";
 }else{
-    $DB_SERVER = "";
-    $DB_NAME = "";
-    $DB_USER = "";
-    $DB_PASS = "";
+    $DB_SERVER = "camillekirstine.com.mysql";
+    $DB_NAME = "camillekirstine_comkrage";
+    $DB_USER = "camillekirstine_comkrage";
+    $DB_PASS = "krage123";
 }
 
 $db = new db($DB_SERVER, $DB_NAME, $DB_USER, $DB_PASS);
