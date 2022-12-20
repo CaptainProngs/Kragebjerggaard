@@ -7,7 +7,7 @@ $data = json_decode(file_get_contents('php://input'), true);
  * password: Skal udfyldes og være KickPHP
  * nameSearch: Valgfri
  */
-
+h
 /*
  $header = "HTTP/1.1 400 Bad Request"; // Sending malformed data results in a 400 Bad Request response.
  $header = "HTTP/1.1 401 Unauthorized"; // Trying to accsess to the API without authentication results in a 401 Unauthorized response.
