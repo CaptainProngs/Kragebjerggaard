@@ -3,7 +3,7 @@
 
 
 <!DOCTYPE html>
-<html lang="da">
+<html lang="da" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
 
@@ -98,7 +98,7 @@
 <article class="scroll-container container col-10 mb-5 mt-5">
     <div class="scroll-element js-scroll slide-right">
     <div class="row justify-content-center">
-            <img class="col-2" src="images/oekoikon.webp" style="min-width: 8em; min-height: 5em;" alt="icon">
+            <img class="col-2" src="images/oekoikon.webp" style="min-width: 8em; min-height: 5em; alt="oeko ikon">
             <h3 class="col-8">På kragebjerggård går vi højt op for kvalitet, og derfor er alle vores produkter
                 økologiske</h3>
         </div>
@@ -108,7 +108,7 @@
 
 <section class="container-fluid p-0">
     <div class="row">
-        <img src="images/bannerlan.webp" alt="banner">
+        <img src="images/bannerlan.webp" alt="grafik">
     </div>
 </section>
 
@@ -127,9 +127,11 @@
     <div class="col-12 p-4 m-4"></div>
 </div>
 
-<section class="scroll-container mx-auto">
-    <div class="scroll-element js-scroll slide-left">
-        <img class="col-10 col-lg-10" src="images/info%20grafik.png" alt="infografik">
+<section class="scroll-container">
+    <div class="row col-10 mx-auto">
+        <div class="scroll-element js-scroll slide-left">
+            <img src="images/info%20grafik.png" alt="infografik">
+        </div>
     </div>
 </section>
 
