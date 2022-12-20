@@ -145,8 +145,6 @@ $produkter = $db->sql($sql);
 <script>
     function myFunction(x) {
         x.classList.toggle("change");
-        0
-        p
     }
 </script>
 

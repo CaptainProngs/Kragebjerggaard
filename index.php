@@ -109,7 +109,7 @@
 
 <section class="container-fluid p-0">
     <div class="row">
-        <img src="images/bannerlan.webp" alt="">
+        <img src="images/info%20grafik.png" alt="grafik">
     </div>
 </section>
 

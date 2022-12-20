@@ -39,11 +39,6 @@ export default class Produkt {
     </div>
 </div>
         `;
-
-
-
-
-
             row.appendChild(col);
         }
 
