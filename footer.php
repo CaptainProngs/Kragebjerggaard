@@ -1,8 +1,8 @@
 <?php
 echo '
 
-<a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/footerS.png" alt="Map"></a>
-<a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/footerL.png" alt="largemap"></a>
+<a class="nav-link d-lg-none p-0 m-0" href="#"><img src="images/footerS.webp" alt="Map"></a>
+<a class="container-fluid nav-link d-none d-lg-block p-0 m-0" href="#"><img src="images/footerL.webp" alt="largemap"></a>
 
 <footer class="footer container-fluid bg-navfarve justify-content-center" style="min-height: 200px">
 

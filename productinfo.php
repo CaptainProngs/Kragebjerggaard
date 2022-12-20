@@ -46,7 +46,7 @@ $produkt = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [':prodId'
 <body>
 <?php include "nav.php"?>
 <picture>
-        <img src="images/productinfohero.png" alt="produkt informations side hero billede">
+        <img src="images/productinfohero.webp" alt="produkt informations side hero billede">
 </picture>
 
 <section>
