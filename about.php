@@ -42,7 +42,7 @@
 
 <section class="aboutus">
     <div class="aboutus-img-cow" >
-        <img class="about-cow-img" alt="cute cow" src="images/cutecowaboutus.png">
+        <img class="about-cow-img" alt="cute cow" src="images/aboutushero.webp">
 
         <div class="text-end aboutus-title">
            <p>Om os</p>
@@ -90,11 +90,11 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 col-lg-6">
-                    <img class="about-farmhouse-img pb-4" alt="Farmhouse" src="images/farmhouseimage.png">
+                    <img class="about-farmhouse-img pb-4" alt="Farmhouse" src="images/farmhouseimage.webp">
                     <p class="mb-5">Kragebjerggård blev opført i 1880 og har altid været i Kvist familien, som altid har opretholdet sit syn på med ærlighed og kvalitet, kommer man længst med. Gården har været igennem 3 gange at blive renoveret og det seneste var i 2005, da gården blev forøget med en ny kostald. </p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img class="about-aboutus-img pb-4" alt="Couple holding herbs" src="images/aboutusimage.png">
+                    <img class="about-aboutus-img pb-4" alt="Couple holding herbs" src="images/aboutusimage.webp">
                     <p class="mb-5">Lige nu bliver gården drevet af Karsten og hans kone Trine Kvist, som med deres tre børn, døtrene Katrine og Ann Sofie, samt deres søn Bjorn, sørger for, at kvaliteten er efter forventning. Udover familien, er der også 7 ansatte, som er med til at opretholde standen af gården, samt pasningen af alle gårdens talrige dyr. </p>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                     </div>
 
                     <div class="col-12 col-lg-6">
-                        <img class="chewingcow mx-auto mb-4" alt="Close up of a cow eating grass" src="images/aboutchewingcow.png">
+                        <img class="chewingcow mx-auto mb-4" alt="Close up of a cow eating grass" src="images/aboutchewingcow.webp">
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                     </div>
 
                     <div class="col-12 col-lg-6">
-                        <img class="farmshop mx-auto mb-4" alt="Picture of the inside of a shop" src="images/farmshopaboutimg.png">
+                        <img class="farmshop mx-auto mb-4" alt="Picture of the inside of a shop" src="images/farmshopaboutimg.webp">
                     </div>
                 </div>
             </div>
@@ -181,7 +181,7 @@
                                 Udover dette, så planter vi også blomster der er med til at øge bestanden af sommerfugle og honningbier.
                             </p>
                         </div>
-                        <img class="natureabout mx-auto mb-4" alt="Picture of a field" src="images/aboutnatureimg.png">
+                        <img class="natureabout mx-auto mb-4" alt="Picture of a field" src="images/aboutnatureimg.webp">
                     </div>
 
                 </div>
@@ -204,7 +204,7 @@
                         </p>
                     </div>
                     <div class="col-12">
-                        <img class="natureabout mx-auto mb-4" alt="Picture of a tractor in a field" src="images/abouttractor1img.png">
+                        <img class="natureabout mx-auto mb-4" alt="Picture of a tractor in a field" src="images/abouttractor1img.webp">
                     </div>
                 </div>
             </div>
