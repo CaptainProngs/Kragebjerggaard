@@ -16,8 +16,7 @@
     <meta name=”description" content='En økoglogisk gård, der går op i dyrevelfærd og frsike råvarer.
           Gården har eget mejeri og driver en webshop med hjemmelavet produkter'>
 
-    <meta name=”robots" content=”index, follow
-    ">
+    <meta name=”robots" content="index, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="keywords"
