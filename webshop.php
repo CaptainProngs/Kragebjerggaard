@@ -106,7 +106,7 @@ $produkter = $db->sql($sql);
 
                     <div class="row mt-2">
                         <div class="col-10 pris"><p><?php
-                                echo $items->prodPris ?></p></div>
+                                echo $items->prodPris ?> kr </p></div>
                         <a class="col-2 mb-4" href=""><img src="images/darkCart.png" class="img-cart"
                                                            alt="cart"></a>
                     </div>
