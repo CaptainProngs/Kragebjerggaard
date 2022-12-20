@@ -49,6 +49,10 @@ $produkt = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [':prodId'
         <img src="images/productinfohero.png" alt="produkt informations side hero billede">
 </picture>
 
+<section>
+    <a class="col-2 col-lg-2 mt-5" href="webshop.php" style="max-height: 2em;"><img  class="m-5" src="images/back.png" alt="back"></a>
+</section>
+
 <main>
     <div class="container">
         <div class="row">

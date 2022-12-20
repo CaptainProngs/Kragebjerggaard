@@ -19,7 +19,7 @@
 
     <meta property="og:title" content="Økologisk landbrug" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.kragebjerggaard.dk" />
+    <meta property="og:url" content="https://www.kragebjerggaard.dk" />
     <meta property="og:image" content="https://www.kragebjerggaard.dk/heromobil.webp" />
     <meta property="og:description" content="Information om gården, dens indehavere og deres værdier"/>
     <meta property="og:locale" content="da_DK" />
