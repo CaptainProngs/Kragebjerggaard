@@ -7,7 +7,7 @@ $produkt = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [':prodId'
 ?>
 
 <!DOCTYPE html>
-<html lang="da" xmlns="http://www.w3.org/1999/html">
+<html lang="da">
 <head>
     <meta charset="utf-8">
 
@@ -27,7 +27,7 @@ $produkt = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [':prodId'
 
     <meta property="og:title" content="Økologisk landbrug" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.kragebjerggaard.dk" />
+    <meta property="og:url" content="https://www.kragebjerggaard.dk" />
     <meta property="og:image" content="https://www.kragebjerggaard.dk/heromobil.webp" />
     <meta property="og:description" content="Information om det produkt der er valgt via webshoppen"/>
     <meta property="og:locale" content="da_DK" />
@@ -46,9 +46,7 @@ $produkt = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [':prodId'
 <body>
 <?php include "nav.php"?>
 <picture>
-    <div>
-        <img src="images/productinfohero.png">
-    </div>
+        <img src="images/productinfohero.png" alt="produkt informations side hero billede">
 </picture>
 
 <main>
@@ -56,7 +54,7 @@ $produkt = $db->sql("SELECT * FROM produkter WHERE prodId = :prodId", [':prodId'
         <div class="row">
             <div class="col-12 col-lg-6">
                 <picture>
-                    <img class="prodbilledeinfo mt-4" src="images/<?php echo $produkt[0]->prodBilled; ?>">
+                    <img class="prodbilledeinfo mt-4" src="images/<?php echo $produkt[0]->prodBilled; ?>" alt="produkt billede">
                 </picture>
             </div>
             <div class="col-12 col-lg-6 mt-4 p-5">
