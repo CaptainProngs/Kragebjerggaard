@@ -13,7 +13,7 @@ $produkter = $db->sql($sql);
 ?>
 
 <!DOCTYPE html>
-<html lang="da" xmlns="http://www.w3.org/1999/html">
+<html lang="da">
 <head>
     <meta charset="utf-8">
 
