@@ -77,7 +77,7 @@ $produkter = $db->sql($sql);
 <div class="container-fluid justify-content-center p-0">
     <div class="row text-center justify-content-center">
         <div class="col-8 col-md-8 col-lg-8">
-        <img src="images/banner1.png" alt="inspiration">
+        <img src="images/banner1.webp" alt="inspiration">
         </div>
     </div>
 </div>

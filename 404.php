@@ -49,7 +49,7 @@
 
 
     <figure class="col-8">
-        <img src="images/404.png" class="rounded mx-auto d-block" alt="produkt">
+        <img src="images/404.webp" class="rounded mx-auto d-block" alt="produkt">
     </figure>
     </div>
 </article>
