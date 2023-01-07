@@ -19,7 +19,7 @@ echo '
             </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse bg-navfarve" id="navbarNavAltMarkup">
             <div class="navbar-nav container-fluid d-flex justify-content-end text-center">
                 <a class="nav-link p-2 px-5" style="font-size: x-large" href="webshop.php">Webshop</a>
                 <a class="nav-link p-2 px-5" style="font-size: x-large" href="404.php">Events</a>
