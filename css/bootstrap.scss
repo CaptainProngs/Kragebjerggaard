@@ -19,8 +19,8 @@ $custom-colors: (
         "cardPrimary": #e5e6db,
         "oliveGreen": #8C9361,
         "lightGreen": #EAF0C7,
-        "dustyGrey": #999999,
-        "dustyGreen": #C1C4A9,
+        "dustyGrey": #ccc9c9,
+        "dustyGreen": #f4f5d1,
         "lightBlue": #A2D4D9,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);

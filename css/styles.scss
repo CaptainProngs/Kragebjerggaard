@@ -71,6 +71,11 @@ img {
 	color: #f5f7f6;
 }
 
+.navbar-nav {
+	position: relative;
+	z-index: 2;
+}
+
 .footer .link {
 	color: #dde0e3;
 	font-family: "proxima nova";
@@ -107,6 +112,7 @@ img {
 .aboutus-img-cow {
 	position: relative;
 	margin-bottom: 150px;
+	z-index: 1;
 
 }
 
@@ -117,7 +123,6 @@ img {
 	position: absolute;
 	top: 35%;
 	left: 62%;
-
 }
 
 
@@ -204,6 +209,10 @@ img {
 	.top-graphic {
 		width: 25%;
 		margin-top: 5%;
+	}
+
+	.section-top-title h1 {
+		font-size: 5vw;
 	}
 }
 

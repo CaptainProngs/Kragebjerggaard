@@ -106,7 +106,7 @@
            <div class="row section-top-title">
                <div class="col">
                    <a id="cowgraphic"><img class="top-graphic mx-auto" alt="Graphic of a cow" src="images/cowgraphic.webp"></a>
-                <h1 class="text-center pb-4">Friluftsdyr</h1>
+                <h1 class="text-center">Friluftsdyr</h1>
                </div>
            </div>
             <div class="container">
@@ -123,7 +123,7 @@
                     </div>
 
                     <div class="col-12 col-lg-6">
-                        <img class="chewingcow mx-auto mb-4" alt="Close up of a cow eating grass" src="images/aboutchewingcow.webp">
+                        <img class="chewingcow mx-auto mb-4" alt="Close up of a cow eating grass" src="images/aboutchewingcow1.webp">
                     </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@
             <div class="row section-top-title">
                 <div class="col">
                     <a id="shopgraphic"><img class="top-graphic mx-auto" alt="Graphic of shop" src="images/shopgraphic.webp"></a>
-                    <h1 class="text-center pb-4">Gårdbutik</h1>
+                    <h1 class="text-center">Gårdbutik</h1>
                 </div>
             </div>
             <div class="container">
@@ -155,7 +155,7 @@
                     </div>
 
                     <div class="col-12 col-lg-6">
-                        <img class="farmshop mx-auto mb-4" alt="Picture of the inside of a shop" src="images/farmshopaboutimg.webp">
+                        <img class="farmshop mx-auto mb-4" alt="Picture of the inside of a shop" src="images/farmshopaboutimg1.webp">
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
             <div class="row section-top-title">
                 <div class="col">
                     <a id="naturegraphic"><img class="top-graphic mx-auto" alt="Graphic of leaves" src="images/leafgraphic.webp"></a>
-                    <h1 class="text-center pb-4">Natur</h1>
+                    <h1 class="text-center">Natur</h1>
                 </div>
             </div>
             <div class="container">
@@ -181,7 +181,7 @@
                                 Udover dette, så planter vi også blomster der er med til at øge bestanden af sommerfugle og honningbier.
                             </p>
                         </div>
-                        <img class="natureabout mx-auto mb-4" alt="Picture of a field" src="images/aboutnatureimg.webp">
+                        <img class="natureabout mx-auto mb-5" alt="Picture of a field" src="images/aboutnatureimg.webp">
                     </div>
 
                 </div>
@@ -194,7 +194,7 @@
             <div class="row section-top-title">
                 <div class="col">
                     <a id="tractorgraphic"><img class="top-graphic mx-auto" alt="Graphic of tractor" src="images/tractorgraphic.webp"></a>
-                    <h1 class="text-center pb-4">Redskaber</h1>
+                    <h1 class="text-center">Redskaber</h1>
                 </div>
             </div>
             <div class="container">
@@ -204,7 +204,7 @@
                         </p>
                     </div>
                     <div class="col-12">
-                        <img class="natureabout mx-auto mb-4" alt="Picture of a tractor in a field" src="images/abouttractor1img.webp">
+                        <img class="natureabout mx-auto mb-5" alt="Picture of a tractor in a field" src="images/abouttractor1img1.webp">
                     </div>
                 </div>
             </div>
