@@ -167,18 +167,18 @@
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
                 <div class="card mx-auto">
-                    <img src="images/Produkterjuice3fin.png" class="card-img-top" alt="SocialMedia">
+                    <img src="images/Produkterjuice3fin.webp" class="card-img-top" alt="SocialMedia">
                 </div>
 
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <div class="card mx-auto">
-                    <img src="images/krydderiprod3fin.png" class="card-img-top" alt="SocialMedia">
+                    <img src="images/krydderiprod3fin.webp" class="card-img-top" alt="SocialMedia">
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <div class="card mx-auto">
-                    <img src="images/Produkterjuice1fin.png" class="card-img-top" alt="SocialMedia">
+                    <img src="images/Produkterjuice1fin.webp" class="card-img-top" alt="SocialMedia">
                 </div>
             </div>
         </div>
