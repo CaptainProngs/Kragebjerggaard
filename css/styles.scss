@@ -128,11 +128,11 @@ img {
 
 
 .about-farmhouse-img {
-	border-radius: 0 0 0 30%;
+	border-radius: 0 0 0 80px;
 }
 
 .about-aboutus-img {
-	border-radius: 0 30% 0 0;
+	border-radius: 0 80px 0 0;
 }
 
 .farmhousesection {
@@ -140,12 +140,12 @@ img {
 }
 
 .section-top-title h1 {
-	font-size: 5vw;
+	font-size: 3vw;
 }
 
 .chewingcow {
-	border-radius: 0 20% 0 20%;
-	max-height: 900px;
+	border-radius: 0 80px 0 80px;
+	height: 90%;
 	width: auto;
 }
 
@@ -154,18 +154,28 @@ img {
 }
 
 .farmshop {
-	border-radius: 0 20% 0 20%;
-	max-height: 900px;
+	border-radius: 0 80px 0 80px;
+	height: 90%;
 	width: auto;
 }
 
 .natureabout {
-	border-radius: 0 20% 0 20%;
+	border-radius: 0 80px 0 80px;;
 }
 
 .section-top p {
 	font-family: proxima-nova;
-	font-size: 1.5rem;
+	
+
+}
+
+.top-graphic {
+	width: 15%;
+	margin-top: 2%;
+}
+
+.about-graphic p {
+	font-family: proxima-nova;
 
 }
 
@@ -180,17 +190,21 @@ img {
 }
 @media screen and (max-width: 991px){
 	.about-farmhouse-img {
-		border-radius: 0 20% 0 20%;
+		border-radius: 0 70px 0 70px;
 	}
 
 	.about-aboutus-img {
-		border-radius: 0 20% 0 20%;
+		border-radius: 0 70px 0 70px;
 	}
 
 	.section-top p {
 		font-size: 1rem;
 	}
 
+	.top-graphic {
+		width: 25%;
+		margin-top: 5%;
+	}
 }
 
 .btn-lg{
