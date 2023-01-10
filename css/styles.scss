@@ -131,6 +131,15 @@ img {
 	bottom: 0;
 }
 
+.js-scroll {
+	opacity: 0;
+	transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+	opacity: 1;
+}
+
 
 .about-farmhouse-img {
 	border-radius: 0 0 0 80px;
@@ -245,6 +254,10 @@ img {
 		transform: translateX(0);
 		opacity: 1;
 	}
+}
+
+.ctalandingpage{
+	min-width: 3vw;
 }
 
 .scrolled.slide-left {

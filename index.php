@@ -127,10 +127,19 @@
     <div class="col-12 p-4 m-4"></div>
 </div>
 
-<section class="scroll-container">
+<section class="scroll-container d-none d-mb-block d-lg-block">
     <div class="row col-10 mx-auto">
         <div class="scroll-element js-scroll slide-left">
             <img src="images/info%20grafik.png" alt="infografik">
+        </div>
+    </div>
+</section>
+
+
+<section class="scroll-container d-block d-mb-none d-lg-none">
+    <div class="row col-10 mx-auto">
+        <div class="scroll-element js-scroll slide-left">
+            <img src="images/InfografikSM.webp" alt="infografik">
         </div>
     </div>
 </section>
